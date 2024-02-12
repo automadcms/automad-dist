@@ -1,0 +1,17 @@
+{
+	"name": "automad/language-packs",
+	"description": "A collection of language packs for the Automad dashboard.",
+	"type": "library",
+	"keywords": [
+		"automad",
+		"language"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marc Anton Dahmen",
+			"homepage": "https://marcdahmen.de"
+		}
+	],
+	"require": {}
+}
