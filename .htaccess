@@ -1,0 +1,107 @@
+# --- AUTOMAD --- #
+
+
+<IfModule mod_rewrite.c>
+
+
+
+
+# Allow large file uploads.
+# Uncomment the following lines in case your server allows for setting those parameters.
+
+#php_value upload_max_filesize 100M
+#php_value post_max_size 100M
+#php_value max_input_time 3000
+#php_value max_execution_time 3000
+
+
+
+
+# DO NOT MODIFY!
+
+Options -Indexes
+
+# To enable Pretty URLs just keep this file in the base folder. 
+# (next to the automad folder and the index.php)
+# As long as you keep these files all togehter, you can even move 
+# the whole installation into a subfolder. It does not need to 
+# be the root folder of your site and this file does not need to 
+# be reconfigured in any case.
+
+RewriteEngine On 
+
+# Do not modify the RewriteBase, even when running automad from a subfolder.
+# The correct rewriting will be figured out automatically.
+RewriteBase /
+
+
+
+
+# Exclude home page from rewriting
+RewriteRule ^$ - [L]
+
+
+
+
+# Pretty URLs:
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# To keep the app portable (can be moved around without configuration),
+# the full path for the actual rewriting has to be determined, 
+# since the RewriteBase stays always '/'.
+
+# To make that possible, the following RewriteCond is a dummy condition 
+# which is always true and is only used to figure out the base url 
+# by using back-references. (http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html)
+
+# Note: The RewriteRule is checked before (!) its RewriteConds. That actually
+# makes the back-reference to (.*) available in the condition.
+
+# For example the full URL is: www.yoursite.com/page/path
+
+# '$1': 		Page path starting from your base url, taken from the ^(.*)$ 
+#			in the RewriteRule ( page/path )
+# '#':			Separator
+# '%{REQUEST_URI}':	The actual requested full URL ( www.yoursite.com/page/path )	 
+# '([^#]*)':		The string (here the value of $1) 
+#			up to the separator ( page/path )
+# '#':			Separator again
+# '(.*)':		The requested URL without the page path ( www.yoursite.com )
+# '\1$':		The string up to the separator again ( /page/path )
+RewriteCond $1#%{REQUEST_URI} ([^#]*)#(.*)\1$
+
+# Everything after the base url (virtual page path) will be redirected to 
+# the second match "%2" from the above condition: 
+# ( www.yoursite.com ) + "index.php?/" + page/path
+RewriteRule ^(.*)$ %2index.php?/$1 [QSA,L]
+
+
+
+
+# Redirect blocked files to the 404 page. 
+
+# Redirect all non-image cache files.
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|gif|png)$
+RewriteCond %{REQUEST_FILENAME} cached [OR]
+
+# Redirect all .txt files.
+RewriteCond %{REQUEST_FILENAME} \.txt$ [OR] 
+
+# Redirect all subdirectories.
+RewriteCond %{REQUEST_FILENAME} -d
+
+# Reuse the method described above to keep the app portable.
+RewriteCond $1#%{REQUEST_URI} ([^#]*)#(.*)\1$
+
+# Redirect to "_" which will display the 404 page.
+RewriteRule ^(.*)$ %2index.php/_ [L]
+
+
+
+
+</IfModule>
+
+
+# --------------- #
