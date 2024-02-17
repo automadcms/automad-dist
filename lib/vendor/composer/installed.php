@@ -3,7 +3,7 @@
         'name' => 'automad/lib',
         'pretty_version' => '2.x-dev',
         'version' => '2.9999999.9999999.9999999-dev',
-        'reference' => 'b9aae9a8fd8a563db7a5086e1f9e446e5727755a',
+        'reference' => '6b15af358929316298a76f3837c678e31c262cc8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -24,7 +24,7 @@
         'automad/lib' => array(
             'pretty_version' => '2.x-dev',
             'version' => '2.9999999.9999999.9999999-dev',
-            'reference' => 'b9aae9a8fd8a563db7a5086e1f9e446e5727755a',
+            'reference' => '6b15af358929316298a76f3837c678e31c262cc8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
