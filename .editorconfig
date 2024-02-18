@@ -4,3 +4,8 @@ root = true
 indent_style = tab
 indent_size = 4
 quote_type = single
+
+[*.yml]
+indent_style = tab
+indent_size = 2
+
