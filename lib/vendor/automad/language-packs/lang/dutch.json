@@ -340,6 +340,7 @@
     "signIn": "Aanmelden",
     "signInError": "Ongeldige gebruikersnaam of wachtwoord",
     "signOut": "Afmelden",
+    "signedInAs": "Aangemeld als",
     "signedOut": "Uitgetekend",
     "signedOutSuccess": "Je bent succesvol afgemeld.",
     "size": "Grootte",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Inzoomen",
     "zoomOutTitle": "Uitzoomen"
 }
-

@@ -24,7 +24,7 @@
       "text",
       "textTeaser"
     ],
-    "shared": ["text", "textTeaser"]
+    "shared": ["+hero", "+main", "text", "textTeaser"]
   },
   "tooltips": {
     "+hero": "The hero section",

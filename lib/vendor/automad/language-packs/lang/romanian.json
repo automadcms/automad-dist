@@ -340,6 +340,7 @@
     "signIn": "Autentificare",
     "signInError": "Nume de utilizator sau parolă invalidă",
     "signOut": "Ieșire",
+    "signedInAs": "Înregistrat ca",
     "signedOut": "Semnat",
     "signedOutSuccess": "Ați fost deconectat cu succes.",
     "size": "Dimensiune",

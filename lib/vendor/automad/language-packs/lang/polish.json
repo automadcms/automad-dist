@@ -340,6 +340,7 @@
     "signIn": "Zaloguj się",
     "signInError": "Nieprawidłowa nazwa użytkownika lub hasło",
     "signOut": "Wyloguj się",
+    "signedInAs": "Zaloguj się jako",
     "signedOut": "Wyloguj się",
     "signedOutSuccess": "Zostałeś pomyślnie wylogowany.",
     "size": "Rozmiar",

@@ -98,24 +98,24 @@
         },
         {
             "name": "automad/standard-v1",
-            "version": "1.0.1",
-            "version_normalized": "1.0.1.0",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/automadcms/automad-standard-v1.git",
-                "reference": "794d086e6448992135bf83a8b2bfb91644377ead"
+                "reference": "27bdfe14556c41f3255c54aaeda4caf40bae1233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/automadcms/automad-standard-v1/zipball/794d086e6448992135bf83a8b2bfb91644377ead",
-                "reference": "794d086e6448992135bf83a8b2bfb91644377ead",
+                "url": "https://api.github.com/repos/automadcms/automad-standard-v1/zipball/27bdfe14556c41f3255c54aaeda4caf40bae1233",
+                "reference": "27bdfe14556c41f3255c54aaeda4caf40bae1233",
                 "shasum": ""
             },
             "require": {
                 "automad/meta-tags": "^1.1 || dev-master",
                 "automad/package-installer": "^1.1 || dev-master"
             },
-            "time": "2023-12-13T18:50:21+00:00",
+            "time": "2024-02-19T16:35:21+00:00",
             "type": "automad-package",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -138,8 +138,22 @@
             ],
             "support": {
                 "issues": "https://github.com/automadcms/automad-standard-v1/issues",
-                "source": "https://github.com/automadcms/automad-standard-v1/tree/1.0.1"
+                "source": "https://github.com/automadcms/automad-standard-v1/tree/1.0.2"
             },
+            "funding": [
+                {
+                    "url": "https://paypal.me/marcantondahmen",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/marcantondahmen",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/marcantondahmen",
+                    "type": "ko_fi"
+                }
+            ],
             "install-path": "../../packages/automad/standard-v1"
         }
     ],

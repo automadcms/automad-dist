@@ -340,6 +340,7 @@
     "signIn": "Bejelentkezés",
     "signInError": "Érvénytelen felhasználónév vagy jelszó",
     "signOut": "Kijelentkezés",
+    "signedInAs": "Bejelentkezve mint",
     "signedOut": "Kijelöltek",
     "signedOutSuccess": "Ön sikeresen kijelentkezett.",
     "size": "Méret",

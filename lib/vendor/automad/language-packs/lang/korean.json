@@ -340,6 +340,7 @@
     "signIn": "로그인",
     "signInError": "잘못된 사용자 아이디 또는 비밀번호",
     "signOut": "로그아웃",
+    "signedInAs": "다음 계정으로 로그인",
     "signedOut": "로그아웃",
     "signedOutSuccess": "성공적으로 로그아웃되었습니다.",
     "size": "크기",

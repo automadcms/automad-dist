@@ -340,6 +340,7 @@
     "signIn": "Prisijungti",
     "signInError": "Neteisingas vartotojo vardas arba slaptažodis",
     "signOut": "Pasirašyti",
+    "signedInAs": "Prisijungta kaip",
     "signedOut": "Pasirašyta",
     "signedOutSuccess": "Jūs sėkmingai išsiregistravote.",
     "size": "Dydis",

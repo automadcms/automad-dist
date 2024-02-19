@@ -340,6 +340,7 @@
     "signIn": "Kirjaudu sisään",
     "signInError": "Virheellinen käyttäjätunnus tai salasana",
     "signOut": "Kirjaudu ulos",
+    "signedInAs": "Kirjautunut sisään nimellä",
     "signedOut": "Allekirjoitettu",
     "signedOutSuccess": "Olet kirjautunut onnistuneesti ulos.",
     "size": "Koko",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Suurenna",
     "zoomOutTitle": "Pienennä"
 }
-

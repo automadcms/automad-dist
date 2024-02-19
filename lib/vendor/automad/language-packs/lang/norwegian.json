@@ -340,6 +340,7 @@
     "signIn": "Logg inn",
     "signInError": "Ugyldig brukernavn eller passord",
     "signOut": "Logg av",
+    "signedInAs": "Pålogget som",
     "signedOut": "Signert ut",
     "signedOutSuccess": "Du har blitt logget ut.",
     "size": "Størrelse",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Zoom inn",
     "zoomOutTitle": "Zoom ut"
 }
-

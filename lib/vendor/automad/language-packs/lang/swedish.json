@@ -340,6 +340,7 @@
     "signIn": "Logga in",
     "signInError": "Ogiltigt användarnamn eller lösenord",
     "signOut": "Logga ut",
+    "signedInAs": "Inloggad som",
     "signedOut": "Undertecknad",
     "signedOutSuccess": "Du har framgångsrikt loggat ut.",
     "size": "Storlek",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Zooma in",
     "zoomOutTitle": "Zooma ut"
 }
-

@@ -340,6 +340,7 @@
     "signIn": "Anmelden",
     "signInError": "Ungültiger Benutzername oder Passwort",
     "signOut": "Abmelden",
+    "signedInAs": "Eingetragen als",
     "signedOut": "Abgemeldet",
     "signedOutSuccess": "Du wurdest erfolgreich abgemeldet.",
     "size": "Größe",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Vergrößern",
     "zoomOutTitle": "Verkleinern"
 }
-

@@ -340,6 +340,7 @@
     "signIn": "登录",
     "signInError": "用户名或密码无效",
     "signOut": "退出",
+    "signedInAs": "登录为",
     "signedOut": "签出",
     "signedOutSuccess": "您已成功退出。",
     "size": "文字大小",

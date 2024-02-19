@@ -340,6 +340,7 @@
     "signIn": "Inicia sessão",
     "signInError": "Nome de utilizador ou palavra-passe inválidos",
     "signOut": "Assina",
+    "signedInAs": "Iniciou sessão como",
     "signedOut": "Assinou",
     "signedOutSuccess": "A tua sessão foi terminada com sucesso.",
     "size": "Tamanho do texto",

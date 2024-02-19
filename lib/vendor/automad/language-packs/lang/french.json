@@ -340,6 +340,7 @@
     "signIn": "S'inscrire",
     "signInError": "Nom d'utilisateur ou mot de passe invalide",
     "signOut": "Déconnexion",
+    "signedInAs": "Inscris-toi en tant que",
     "signedOut": "Signé",
     "signedOutSuccess": "Tu as été déconnecté avec succès.",
     "size": "Taille",

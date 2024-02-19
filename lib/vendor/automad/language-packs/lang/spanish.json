@@ -340,6 +340,7 @@
     "signIn": "Iniciar sesión",
     "signInError": "Nombre de usuario o contraseña no válidos",
     "signOut": "Cerrar sesión",
+    "signedInAs": "Registrado como",
     "signedOut": "Regístrate",
     "signedOutSuccess": "Has finalizado la sesión correctamente.",
     "size": "Tamaño",

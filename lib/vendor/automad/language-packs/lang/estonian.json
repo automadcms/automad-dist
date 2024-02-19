@@ -340,6 +340,7 @@
     "signIn": "Logi sisse",
     "signInError": "Vale kasutajanimi või salasõna",
     "signOut": "Välja logida",
+    "signedInAs": "Registreerunud kui",
     "signedOut": "Allkirjastatud",
     "signedOutSuccess": "Te olete edukalt välja logitud.",
     "size": "Suurus",
@@ -467,4 +468,3 @@
     "zoomInTitle": "Suurendus",
     "zoomOutTitle": "Suumimine"
 }
-

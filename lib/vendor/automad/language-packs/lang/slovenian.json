@@ -340,6 +340,7 @@
     "signIn": "Prijava",
     "signInError": "Neveljavno uporabniško ime ali geslo",
     "signOut": "Odjava",
+    "signedInAs": "Prijavljen kot",
     "signedOut": "Odjavljeno",
     "signedOutSuccess": "Uspešno ste se odjavili.",
     "size": "Velikost",

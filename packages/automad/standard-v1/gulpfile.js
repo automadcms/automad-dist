@@ -72,15 +72,15 @@ gulp.task('standard-js', function () {
 			.pipe(
 				header(
 					'/*! <%= pkg.title %> <%= pkg.version %> | <%= pkg.homepage %> | (c) 2014 YOOtheme | MIT License */\n',
-					{ pkg: pkgUIkit }
-				)
+					{ pkg: pkgUIkit },
+				),
 			),
 		// Sticky sidebar.
 		gulp
 			.src(['node_modules/css-element-queries/src/ResizeSensor.js'])
 			.pipe(uglify(uglifyOptions)),
 		gulp.src(['node_modules/sticky-sidebar/dist/sticky-sidebar.min.js']),
-		gulp.src(['js/*.js']).pipe(uglify(uglifyOptions))
+		gulp.src(['js/*.js']).pipe(uglify(uglifyOptions)),
 	)
 		.pipe(concat('standard.min.js', { newLine: '\r\n\r\n' }))
 		.pipe(gulp.dest('dist'));
@@ -102,6 +102,11 @@ gulp.task('standard-less', function () {
 gulp.task('fonts', function () {
 	return gulp
 		.src('node_modules/typeface-inter/Inter Web/Inter-*.var.woff2')
+		.pipe(
+			rename((path) => {
+				path.basename = path.basename.replace('.var', '-var');
+			}),
+		)
 		.pipe(gulp.dest('dist'));
 });
 

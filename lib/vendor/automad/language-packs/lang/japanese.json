@@ -340,6 +340,7 @@
     "signIn": "サインインする",
     "signInError": "ユーザー名またはパスワードが無効",
     "signOut": "サインアウト",
+    "signedInAs": "サインイン",
     "signedOut": "サインアウト",
     "signedOutSuccess": "サインアウトに成功した。",
     "size": "サイズ",
@@ -467,4 +468,3 @@
     "zoomInTitle": "ズームイン",
     "zoomOutTitle": "ズームアウト"
 }
-
