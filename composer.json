@@ -1,5 +1,5 @@
 {
-    "name": "automad/dist",
+    "name": "automad/automad",
     "description": "A flat-file content management system and template engine",
     "keywords": [
         "cms"
