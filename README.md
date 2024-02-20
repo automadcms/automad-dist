@@ -25,7 +25,7 @@ Join the community, ask questions or start a discussion on the Automad [discussi
 
 ## Contributing
 
-In case you are interested in contributing, the following types of contribution are welcome:
+Pull-requests are ignored for this repository and will be closed automatically. However, in case you are interested in contributing, the following types of contribution are welcome:
 
 -   Improving [language packs](https://github.com/automadcms/automad-language-packs) by fixing translation errors or adding new languages
 -   [Publishing packages](https://automad.org/developer-guide/publishing-packages) like themes or extensions to the Automad package [browser](https://packages.automad.org)
