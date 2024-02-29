@@ -1,7 +1,7 @@
 # Automad &mdash; Distribution
 
 ![Tag](https://img.shields.io/github/v/tag/automadcms/automad-dist?include_prereleases&sort=semver&color=222222)
-![PHP](https://img.shields.io/packagist/dependency-v/automad/automad/php?color=222222)
+![PHP](https://img.shields.io/packagist/dependency-v/automad/automad/php?version=dev-master&color=222222)
 ![Size](https://img.shields.io/github/languages/code-size/marcantondahmen/automad?color=222222)
 ![License](https://img.shields.io/github/license/marcantondahmen/automad?color=222222)
 [![Twitter](https://img.shields.io/twitter/follow/automadcms?label=Follow)](https://twitter.com/automadcms)
