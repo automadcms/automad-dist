@@ -3,7 +3,9 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
+	<?php if (substr(AM_VERSION, 0, 1) == '1') { ?>
+		<title>@{ metaTitle | def('@{ sitename } / @{ title | def ("404") }') }</title>
+	<?php } ?>
 	<@ elements/metatags.php @>
 	<@ elements/favicons.php @>
 	<# 
