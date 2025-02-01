@@ -27,12 +27,12 @@ Join the community, ask questions or start a discussion on the Automad [discussi
 
 Pull-requests are ignored for this repository and will be closed automatically. However, in case you are interested in contributing, the following types of contribution are welcome:
 
--   Improving [language packs](https://github.com/automadcms/automad-language-packs) by fixing translation errors or adding new languages
--   [Publishing packages](https://automad.org/developer-guide/publishing-packages) like themes or extensions to the Automad package [browser](https://packages.automad.org)
--   Giving feedback and helping to grow a [community](https://automad.org/discuss)
--   Reporting bugs or requesting features at [GitHub](https://github.com/marcantondahmen/automad/issues)
+- Improving [language packs](https://github.com/automadcms/automad-language-packs) by fixing translation errors or adding new languages
+- [Publishing packages](https://automad.org/developer-guide/publishing-packages) like themes or extensions to the Automad package [browser](https://packages.automad.org)
+- Giving feedback and helping to grow a [community](https://automad.org/discuss)
+- Reporting bugs or requesting features at [GitHub](https://github.com/marcantondahmen/automad/issues)
 
 ---
 
-© 2013-2024 [Marc Anton Dahmen](https://marcdahmen.de)  
+© 2013-2025 [Marc Anton Dahmen](https://marcdahmen.de)  
 Released under the [MIT license](https://automad.org/license)
