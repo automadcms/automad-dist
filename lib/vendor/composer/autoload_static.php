@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitcbe10b52b42cdd02d5857261911ce223
+class ComposerStaticInit94ae09923dfdeebda3a8a37e254b54c8
 {
     public static $files = array (
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
@@ -14,10 +14,6 @@ class ComposerStaticInitcbe10b52b42cdd02d5857261911ce223
     );
 
     public static $prefixLengthsPsr4 = array (
-        'v' => 
-        array (
-            'voku\\' => 5,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -48,14 +44,13 @@ class ComposerStaticInitcbe10b52b42cdd02d5857261911ce223
         array (
             'Doctrine\\Common\\Lexer\\' => 22,
         ),
+        'C' => 
+        array (
+            'Cocur\\Slugify\\' => 14,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'voku\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/voku/stop-words/src/voku',
-            1 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
@@ -116,15 +111,9 @@ class ComposerStaticInitcbe10b52b42cdd02d5857261911ce223
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'U' => 
+        'Cocur\\Slugify\\' => 
         array (
-            'URLify' => 
-            array (
-                0 => __DIR__ . '/..' . '/jbroadway/urlify',
-            ),
+            0 => __DIR__ . '/..' . '/cocur/slugify/src',
         ),
     );
 
@@ -136,10 +125,9 @@ class ComposerStaticInitcbe10b52b42cdd02d5857261911ce223
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitcbe10b52b42cdd02d5857261911ce223::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitcbe10b52b42cdd02d5857261911ce223::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitcbe10b52b42cdd02d5857261911ce223::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitcbe10b52b42cdd02d5857261911ce223::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit94ae09923dfdeebda3a8a37e254b54c8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit94ae09923dfdeebda3a8a37e254b54c8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit94ae09923dfdeebda3a8a37e254b54c8::$classMap;
 
         }, null, ClassLoader::class);
     }
