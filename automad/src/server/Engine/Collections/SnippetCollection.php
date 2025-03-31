@@ -36,6 +36,8 @@
 
 namespace Automad\Engine\Collections;
 
+use Automad\Engine\Snippet;
+
 defined('AUTOMAD') or die('Direct access not permitted!');
 
 /**
@@ -48,37 +50,40 @@ defined('AUTOMAD') or die('Direct access not permitted!');
 class SnippetCollection {
 	/**
 	 * An array for collection snippet definitions.
+	 *
+	 * @var Snippet[]
 	 */
 	private static array $snippets = array();
 
 	/**
-	 * Add a snippet definition to the collection.
+	 * Add a snippet to the collection.
 	 *
 	 * @param string $name
 	 * @param string $body
+	 * @param string $path
 	 */
-	public static function add(string $name, string $body): void {
-		self::$snippets[$name] = $body;
+	public static function add(string $name, string $body, string $path): void {
+		self::$snippets[$name] = new Snippet($body, $path);
 	}
 
 	/**
-	 * Get a snippet definition body.
+	 * Get a snippet.
 	 *
 	 * @param string $name
-	 * @return string the snippet body
+	 * @return Snippet|null the snippet
 	 */
-	public static function get(string $name): string {
+	public static function get(string $name): Snippet|null {
 		if (array_key_exists($name, self::$snippets)) {
 			return self::$snippets[$name];
 		}
 
-		return '';
+		return null;
 	}
 
 	/**
-	 * Get the full collection of snippet definitions.
+	 * Get the full collection of snippets.
 	 *
-	 * @return array the array of snippet definitions.
+	 * @return Snippet[] the array of snippets.
 	 */
 	public static function getCollection(): array {
 		return self::$snippets;
