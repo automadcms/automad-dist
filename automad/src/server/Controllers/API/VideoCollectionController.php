@@ -27,51 +27,42 @@
  *
  * AUTOMAD
  *
- * Copyright (c) 2022-2025 by Marc Anton Dahmen
+ * Copyright (c) 2025 by Marc Anton Dahmen
  * https://marcdahmen.de
  *
  * Licensed under the MIT license.
  * https://automad.org/license
  */
 
-namespace Automad\Models;
+namespace Automad\Controllers\API;
 
+use Automad\API\Response;
+use Automad\Core\Automad;
 use Automad\Core\FileSystem;
-use Automad\Core\Image;
+use Automad\Models\VideoCollection;
 
 defined('AUTOMAD') or die('Direct access not permitted!');
 
 /**
- * The image collection model.
+ * The video collection controller.
  *
  * @author Marc Anton Dahmen
- * @copyright Copyright (c) 2022-2025 by Marc Anton Dahmen - https://marcdahmen.de
+ * @copyright Copyright (c) 2025 by Marc Anton Dahmen - https://marcdahmen.de
  * @license MIT license - https://automad.org/license
  */
-class ImageCollection {
+class VideoCollectionController {
 	/**
-	 * List all images of a page or the shared data directory.
+	 * Get a list of shared or page video files
 	 *
-	 * @param string $path
-	 * @return array
+	 * @return Response the response object
 	 */
-	public static function list(string $path): array {
-		$images = array();
-		$globGrep = FileSystem::globGrep(
-			$path . '*.*',
-			'/\.(' . implode('|', FileSystem::FILE_TYPES_IMAGE) . ')$/i'
+	public static function list(): Response {
+		$Automad = Automad::fromCache();
+		$path = FileSystem::getPathByPostUrl($Automad);
+		$Response = new Response();
+
+		return $Response->setData(
+			array('videos' => VideoCollection::list($path))
 		);
-
-		foreach ($globGrep as $file) {
-			$image = new Image($file, 250, 250);
-
-			$item = array();
-			$item['name'] = basename($file);
-			$item['thumbnail'] = AM_BASE_URL . $image->file;
-
-			$images[] = $item;
-		}
-
-		return $images;
 	}
 }
