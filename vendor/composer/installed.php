@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'automad/automad',
-        'pretty_version' => '2.0.0-alpha.36',
-        'version' => '2.0.0.0-alpha36',
-        'reference' => '73da6a57aec98c8b3bc5c11cd304cfbd9a551513',
+        'pretty_version' => '2.0.0-alpha.37',
+        'version' => '2.0.0.0-alpha37',
+        'reference' => 'b7160ecffc21255e0b9b4e090c14b2bc8f855be0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automad/automad' => array(
-            'pretty_version' => '2.0.0-alpha.36',
-            'version' => '2.0.0.0-alpha36',
-            'reference' => '73da6a57aec98c8b3bc5c11cd304cfbd9a551513',
+            'pretty_version' => '2.0.0-alpha.37',
+            'version' => '2.0.0.0-alpha37',
+            'reference' => 'b7160ecffc21255e0b9b4e090c14b2bc8f855be0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
