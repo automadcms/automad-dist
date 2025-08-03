@@ -7,15 +7,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/automadcms/automad-language-packs.git",
-                "reference": "5091473787ffbce1acb2a3bdd78a72b994bd1a63"
+                "reference": "63d69c9098209baaae36b4dc8fad4bc19ba1ea12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/automadcms/automad-language-packs/zipball/5091473787ffbce1acb2a3bdd78a72b994bd1a63",
-                "reference": "5091473787ffbce1acb2a3bdd78a72b994bd1a63",
+                "url": "https://api.github.com/repos/automadcms/automad-language-packs/zipball/63d69c9098209baaae36b4dc8fad4bc19ba1ea12",
+                "reference": "63d69c9098209baaae36b4dc8fad4bc19ba1ea12",
                 "shasum": ""
             },
-            "time": "2025-06-29T15:40:06+00:00",
+            "time": "2025-08-03T11:34:21+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
