@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'automad/lib',
-        'pretty_version' => '2.0.0-alpha.42',
-        'version' => '2.0.0.0-alpha42',
-        'reference' => '8f2508c184a1e352ca3c04c6b73c8be1395d98cb',
+        'pretty_version' => '2.0.0-alpha.43',
+        'version' => '2.0.0.0-alpha43',
+        'reference' => '197f610b6c0e53b44ccb69476c384504a6dc7b74',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,9 +22,9 @@
             'dev_requirement' => false,
         ),
         'automad/lib' => array(
-            'pretty_version' => '2.0.0-alpha.42',
-            'version' => '2.0.0.0-alpha42',
-            'reference' => '8f2508c184a1e352ca3c04c6b73c8be1395d98cb',
+            'pretty_version' => '2.0.0-alpha.43',
+            'version' => '2.0.0.0-alpha43',
+            'reference' => '197f610b6c0e53b44ccb69476c384504a6dc7b74',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
