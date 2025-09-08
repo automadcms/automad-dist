@@ -24,7 +24,7 @@
 	@{ itemsHeader }
 </head>
 
-<body class="@{ :template | sanitize }">
+<body class="@{ :template | def(@{ template }) | sanitize }">
 	<@ elements/navbar.php @>
 	@{ +hero | replace ('/^(.+)$/is', '<section class="hero content">$1</section>') }
 	<div class="uk-container uk-container-center">
@@ -35,15 +35,13 @@
 
 		#>
 		<@ snippet main @>
-			<@ elements/header.php @>
-				<main class="content uk-block">
-					<@ elements/content.php @>
-					<@ elements/prev_next.php @>
-				</main>
-				<div class="content uk-block">
-					<@ elements/related_posts.php @>
-				</div>
-			<@ elements/footer.php @>
+			<main class="content uk-block">
+				<@ elements/content.php @>
+				<@ elements/prev_next.php @>
+			</main>
+			<div class="content uk-block">
+				<@ elements/related_posts.php @>
+			</div>
 		<@ end @>
 		<# 
 

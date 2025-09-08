@@ -1,4 +1,4 @@
-/*! Automad 2.0.0-alpha.43, (c) 2025 Marc Anton Dahmen, MIT license */(()=>{var t={384:function(t,e,i){
+/*! Automad 2.0.0-alpha.44, (c) 2025 Marc Anton Dahmen, MIT license */(()=>{var t={384:function(t,e,i){
 /*!
  * Draggabilly v3.0.0
  * Make that shiz draggable
