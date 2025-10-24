@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a}from"./chunk.BC66SMYZ.js";import"./chunk.ETUXSY6N.js";import{a as t}from"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var e=class extends a{constructor(){super(...arguments);this.linkLabel=!1}createInput(){let{name:i,id:n,value:s}=this._data;t("am-number-unit-input",[],{id:n,name:i,value:s},this)}};customElements.define("am-number-unit-field",e);

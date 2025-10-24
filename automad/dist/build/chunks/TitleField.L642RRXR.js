@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as i}from"./chunk.BC66SMYZ.js";import"./chunk.ETUXSY6N.js";import{a as e}from"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var t=class extends i{createInput(){let{name:a,id:n,value:s}=this._data;e("input",["am-f-input","am-f-input--title"],{id:n,name:a,value:s,type:"text"},this)}};customElements.define("am-title-field",t);

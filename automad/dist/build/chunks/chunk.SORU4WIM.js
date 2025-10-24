@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as e}from"./chunk.OFEEUNAF.js";import{M as t}from"./chunk.ETUXSY6N.js";var c=class extends e{render(){this.state?this.innerHTML=t`<am-icon-text class="${"am-u-text-active"}" ${"am-icon"}="check-circle" ${"am-text"}="${this.textOn}" ></am-icon-text>`:this.innerHTML=t`<am-icon-text class="${"am-u-text-muted"}" ${"am-icon"}="slash-circle" ${"am-text"}="${this.textOff}" ></am-icon-text>`}};export{c as a};

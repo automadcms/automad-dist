@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as s}from"./chunk.WA2JRMRZ.js";import{f as i}from"./chunk.TNS2LIBN.js";var o=class extends s{connectedCallback(){this.setAttribute("tabindex","0"),this.toggleAttribute("disabled",!0),this.relatedForms.forEach(t=>{let e=()=>{this.toggleAttribute("disabled",i(":checked",t).length==0)};this.listen(window,"AutomadFileCollectionRender",e),this.listen(t,"change",e)}),this.listen(this,"click",this.submit.bind(this))}};export{o as a};

@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as m}from"./chunk.CNBJAA5I.js";import"./chunk.WA2JRMRZ.js";import{a as i,ja as o}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var e=class extends m{async submit(){this.hasAttribute("disabled")||await o(i.text("confirmDeleteSelectedFiles"))&&this.relatedForms.forEach(t=>{t.additionalData={action:"delete"},t.submit()})}};customElements.define("am-file-collection-delete",e);
