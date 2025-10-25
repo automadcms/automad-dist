@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a}from"./chunk.DOIEWY6U.js";import{a as r,da as t}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var e=class extends a{additionalRequestData(){return{url:t()}}initialState(){return r.pages[t()].publicationState}controllers(){return{state:"PageController::getPublicationState",discard:"PageController::discardDraft",publish:"PageController::publish"}}};customElements.define("am-page-publish-form",e);

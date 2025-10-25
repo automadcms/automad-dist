@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{k as o}from"./chunk.DFXEN6GE.js";import{a as t}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var e=class extends o{connectedCallback(){let i=this.getAttribute("am-icon"),s=this.getAttribute("am-text");this.removeAttribute("am-icon"),this.removeAttribute("am-text"),i&&s&&(this.classList.add("am-c-icon-text"),t("i",["bi",`bi-${i}`],{},this),t("span",[],{},this).textContent=s)}};customElements.define("am-icon-text",e);

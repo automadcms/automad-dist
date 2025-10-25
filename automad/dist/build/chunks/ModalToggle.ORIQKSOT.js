@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{k as o}from"./chunk.DFXEN6GE.js";import{e}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var t=class extends o{static get observedAttributes(){return["am-modal"]}connectedCallback(){let s=()=>{e(this.elementAttributes["am-modal"]).toggle()};this.listen(this,"click",s.bind(this))}};customElements.define("am-modal-toggle",t);

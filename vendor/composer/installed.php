@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'automad/automad',
-        'pretty_version' => '2.0.0-alpha.47',
-        'version' => '2.0.0.0-alpha47',
-        'reference' => '3eefd64d3b7679c1394acf8891ddacdfa1917578',
+        'pretty_version' => '2.0.0-alpha.48',
+        'version' => '2.0.0.0-alpha48',
+        'reference' => 'd137f256507bd6a43532b1a5d77d52affb4d5dd9',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automad/automad' => array(
-            'pretty_version' => '2.0.0-alpha.47',
-            'version' => '2.0.0.0-alpha47',
-            'reference' => '3eefd64d3b7679c1394acf8891ddacdfa1917578',
+            'pretty_version' => '2.0.0-alpha.48',
+            'version' => '2.0.0.0-alpha48',
+            'reference' => 'd137f256507bd6a43532b1a5d77d52affb4d5dd9',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'automad/standard-v1' => array(
-            'pretty_version' => '1.0.10',
-            'version' => '1.0.10.0',
-            'reference' => 'f7ac1a74c8283502f61022b05b3a1d6147041395',
+            'pretty_version' => '1.0.11',
+            'version' => '1.0.11.0',
+            'reference' => '4d43adf69fb9c298f0e406757517900190630fd2',
             'type' => 'automad-package',
             'install_path' => __DIR__ . '/../../packages/automad/standard-v1',
             'aliases' => array(),

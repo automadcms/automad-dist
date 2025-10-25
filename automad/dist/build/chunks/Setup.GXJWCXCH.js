@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as o}from"./chunk.IGX3Q5ID.js";import"./chunk.MH5AKNSS.js";import{M as t,W as r}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var e=class extends o{get pageTitle(){return"Create User"}renderMainPartial(){return t`<am-setup-form ${"am-api"}="${"UserCollectionController::createFirstUser"}" ${"am-focus"} ${"am-enter"} ></am-setup-form>`}};customElements.define(r("setup"),e);export{e as SetupComponent};

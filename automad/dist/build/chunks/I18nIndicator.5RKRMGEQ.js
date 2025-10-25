@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as n}from"./chunk.SORU4WIM.js";import"./chunk.OFEEUNAF.js";import{a as t}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var e=class extends n{get textOn(){return t.text("i18nEnabled")}get textOff(){return t.text("i18nDisabled")}get state(){return t.system.i18n}};customElements.define("am-system-i18n-indicator",e);

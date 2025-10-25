@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as r}from"./chunk.DOIEWY6U.js";import{a as e}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var t=class extends r{additionalRequestData(){return{}}initialState(){return e.sharedPublicationState}controllers(){return{state:"SharedController::getPublicationState",discard:"SharedController::discardDraft",publish:"SharedController::publish"}}};customElements.define("am-shared-publish-form",t);

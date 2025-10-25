@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{k as o}from"./chunk.DFXEN6GE.js";import{a as n,f as i}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var e=class extends o{connectedCallback(){let s=n("span",[],{},this),t=()=>{let c=i("am-file-card").length;s.textContent=`${c}`};this.listen(window,"AutomadFileCollectionRender",t.bind(this)),setTimeout(t.bind(this),0)}};customElements.define("am-file-count",e);

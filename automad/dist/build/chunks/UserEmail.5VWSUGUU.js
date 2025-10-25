@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as e,k as t,qa as l,v as a}from"./chunk.DFXEN6GE.js";import"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var i=class extends t{connectedCallback(){this.classList.add("am-c-field"),a("am-email-field",this,{id:l(),key:"email",value:this.getAttribute("value")??"",name:"email",label:e.text("email")},[],{"am-error":e.text("emailRequiredError"),required:""})}};customElements.define("am-user-email",i);

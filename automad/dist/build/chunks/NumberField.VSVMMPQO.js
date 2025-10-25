@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as i}from"./chunk.XUX5YWUW.js";import"./chunk.DFXEN6GE.js";import{a as t}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var e=class extends i{createInput(){let{name:n,id:a,value:s}=this._data;t("input",["am-f-input"],{type:"number",id:a,name:n,value:s},this)}};customElements.define("am-number-field",e);

@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{k as e,l as t}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var s=class extends e{connectedCallback(){let i=()=>{let o=this.closest(t.TAG_NAME);this.hasAttribute("disabled")||o instanceof t&&o.close()};this.listen(this,"click",i.bind(this))}};customElements.define("am-modal-close",s);

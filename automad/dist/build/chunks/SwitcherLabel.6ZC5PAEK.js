@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as i,b as r}from"./chunk.JR5R6LQB.js";import{k as o}from"./chunk.ETUXSY6N.js";import{e}from"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var n=class extends o{connectedCallback(){let m=".am-c-dropdown__items",s=".am-c-menu",t=()=>`${i.TAG_NAME}[am-section="${r()}"]`;this.listen(window,"AutomadSwitcherChange",()=>{this.innerHTML=(e(`${m} ${t()}`)||e(`${s} ${t()}`)||e(t())).innerHTML})}};customElements.define("am-switcher-label",n);export{n as SwitcherLabelComponent};

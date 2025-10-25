@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{C as s,a as e,k as o}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var t=class extends o{connectedCallback(){let n=[];for(let[a,l]of Object.entries(e.languages))n.push({text:a,value:l});s(n,e.system.translation,this,"translation","","",["am-f-select--inline"])}};customElements.define("am-language-select",t);

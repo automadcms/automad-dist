@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as i}from"./chunk.O365IAJQ.js";import{M as a,a as s}from"./chunk.DFXEN6GE.js";import"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var t=class extends i{render(){let e=s.state.outdatedPackages;this.classList.toggle("am-e-badge",e>0),e?this.innerHTML=a`↓ ${e}`:this.innerHTML=""}};customElements.define("am-sidebar-outdated-packages-indicator",t);

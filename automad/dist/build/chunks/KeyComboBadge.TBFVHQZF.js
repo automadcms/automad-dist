@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.47, (c) 2025 Marc Anton Dahmen, MIT license */
-import{k as e,la as s}from"./chunk.ETUXSY6N.js";import"./chunk.TNS2LIBN.js";import"./chunk.44XCHEAG.js";import"./chunk.EPACJLJA.js";var t=class extends e{static get observedAttributes(){return["am-key"]}connectedCallback(){this.classList.add("am-e-key-combo");let i=s();this.textContent=`${i} + ${this.elementAttributes["am-key"]}`,this.removeAttribute("am-key")}};customElements.define("am-key-combo-badge",t);

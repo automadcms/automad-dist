@@ -1,0 +1,2 @@
+/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
+import{a as e,k as r,qa as i,v as a}from"./chunk.DFXEN6GE.js";import"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var t=class extends r{connectedCallback(){this.classList.add("am-c-field"),a("am-input-field",this,{id:i(),key:"username",value:this.getAttribute("value")??"",name:"username",label:e.text("username")},[],{pattern:"^[a-z0-9]([a-z0-9_]|-)+[a-z0-9]$",required:"","am-error":e.text("invalidUsernameError")})}};customElements.define("am-user-name",t);
