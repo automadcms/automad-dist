@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{a as r}from"./chunk.TLSPVR4I.js";import{a as e}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var t=class extends r{additionalRequestData(){return{}}initialState(){return e.componentsPublicationState}controllers(){return{state:"ComponentController::getPublicationState",discard:"ComponentController::discardDraft",publish:"ComponentController::publish"}}};customElements.define("am-component-publish-form",t);

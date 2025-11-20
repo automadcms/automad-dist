@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{a as e,b as i,k as t,v as a}from"./chunk.KG3NJGTQ.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var n=class extends t{connectedCallback(){let l=new i("i18nEnabled",{initial:e.system.i18n});this.listen(window,"AutomadAppStateChange",()=>{l.value=e.system.i18n}),a("am-toggle-large-field",this,{key:"i18nEnabled",value:e.system.i18n,name:"i18nEnabled",label:e.text("systemI18nEnable")},[],{"am-bind":"i18nEnabled","am-bind-to":"checked"})}};customElements.define("am-i18n-enable",n);

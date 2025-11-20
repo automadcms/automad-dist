@@ -477,7 +477,7 @@
     "systemCachePurge": "Cachegeheugen wissen",
     "systemCachePurgeInfo": "In tegenstelling tot het gewoon wissen van de cache, zal het wissen van de cache-directory ook alle tijdelijke bestanden, verwijderde pagina's, update-back-ups en afbeeldingen in de cache naar de tijdelijke directory van het systeem verplaatsen. Dit zorgt ervoor dat de cache van afbeeldingen en pagina's volledig opnieuw wordt opgebouwd en dat alle verwijderde pagina's worden opgeschoond. Op de meeste systemen wordt de tijdelijke map van tijd tot tijd of bij het opnieuw opstarten automatisch opgeschoond. Op sommige systemen moet de tijdelijke map echter handmatig worden opgeschoond.",
     "systemDebugCardInfo": "Debugging inschakelen om problemen met je installatie op te sporen",
-    "systemDebugInfo": "Als debugging is ingeschakeld, worden alle processen van Automad gelogd in de console van je browser en in <code>.json</code> bestanden in de tijdelijke map. Debuggen is alleen nodig voor ontwikkeling of probleemoplossing en moet in alle andere gevallen worden uitgeschakeld.",
+    "systemDebugInfo": "Als debugging is ingeschakeld, worden alle processen van Automad gelogd naar de console van je browser en naar JSON-bestanden in de tijdelijke map. JSON bestanden kunnen bekeken worden met de <code>log:filter</code> en <code>log:list</code> Automad CLI commando's. Debuggen is alleen nodig voor ontwikkeling of probleemoplossing en moet in alle andere gevallen worden uitgeschakeld.",
     "systemI18n": "Internationalisatie",
     "systemI18nCardInfo": "Meertalige inhoud inschakelen en configureren",
     "systemI18nDefault": "Standaard taal",

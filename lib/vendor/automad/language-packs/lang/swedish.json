@@ -477,7 +477,7 @@
     "systemCachePurge": "Katalog för rensning av cache",
     "systemCachePurgeInfo": "Till skillnad från att bara rensa cacheminnet kommer en rensning av cacheminnet också att flytta alla temporära filer, raderade sidor, uppdaterade säkerhetskopior och cachade bilder till den temporära katalogen i systemet. Detta kommer att tvinga fram en fullständig återuppbyggnad av bild- och sidcachen samt en rensning av alla raderade sidor. På de flesta system rensas den temporära katalogen automatiskt från tid till annan eller vid omstart. På vissa system måste dock den temporära katalogen rensas manuellt.",
     "systemDebugCardInfo": "Aktivera felsökning för att identifiera problem med din installation",
-    "systemDebugInfo": "När felsökning är aktiverat loggas alla Automad:s processer till webbläsarens konsol samt till <code>.json</code> filer i den temporära katalogen. Felsökning behövs endast för utveckling eller felsökning och bör vara inaktiverad i alla andra fall.",
+    "systemDebugInfo": "När felsökning är aktiverad loggas alla processer i Automad till webbläsarens konsol samt till JSON-filer i den temporära katalogen. JSON-filerna kan visas med hjälp av kommandona <code>log:filter</code> och <code>log:list</code> Automad CLI. Felsökning behövs endast för utveckling eller felsökning och bör avaktiveras i alla andra fall.",
     "systemI18n": "Internationalisering",
     "systemI18nCardInfo": "Aktivera och konfigurera flerspråkigt innehåll",
     "systemI18nDefault": "Standardspråk",

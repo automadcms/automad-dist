@@ -477,7 +477,7 @@
     "systemCachePurge": "Čiščenje imenika predpomnilnika",
     "systemCachePurgeInfo": "V nasprotju s preprostim čiščenjem predpomnilnika se s čiščenjem imenika predpomnilnika vse začasne datoteke, izbrisane strani, varnostne kopije posodobitev in slike v predpomnilniku premaknejo tudi v začasni imenik sistema. To bo prisililo v popolno obnovitev predpomnilnika slik in strani ter čiščenje vseh izbrisanih strani. V večini sistemov se začasni imenik občasno ali ob ponovnem zagonu samodejno očisti. V nekaterih sistemih pa je treba začasne imenike očistiti ročno.",
     "systemDebugCardInfo": "Omogočite razhroščevanje, da ugotovite težave z namestitvijo.",
-    "systemDebugInfo": "Ko je omogočeno razhroščevanje, se bodo vsi procesi Automad beležili v konzolo brskalnika in v datoteke <code>.json</code> znotraj začasnega imenika. Razhroščevanje je potrebno le za razvoj ali odpravljanje težav in mora biti v vseh drugih primerih onemogočeno.",
+    "systemDebugInfo": "Ko je omogočeno razhroščevanje, se vsi postopki Automad'beležijo v konzolo brskalnika in v datoteke JSON znotraj začasnega imenika. Datoteke JSON si lahko ogledate z ukazoma <code>log:filter</code> in <code>log:list</code> Automad CLI. Razhroščevanje je potrebno le za razvoj ali odpravljanje težav in mora biti v vseh drugih primerih onemogočeno.",
     "systemI18n": "Internacionalizacija",
     "systemI18nCardInfo": "Omogočite in konfigurirajte večjezično vsebino",
     "systemI18nDefault": "Privzeto mesto",

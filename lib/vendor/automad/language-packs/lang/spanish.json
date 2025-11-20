@@ -477,7 +477,7 @@
     "systemCachePurge": "Purgar directorio de caché",
     "systemCachePurgeInfo": "A diferencia de la simple limpieza de la caché, la purga del directorio de caché también moverá todos los archivos temporales, páginas eliminadas, copias de seguridad de actualizaciones e imágenes almacenadas en caché al directorio temporal del sistema. Esto forzará una reconstrucción completa de la caché de imágenes y páginas, así como una limpieza de todas las páginas eliminadas. En la mayoría de los sistemas, el directorio temporal se limpiará automáticamente cada cierto tiempo o al reiniciar. Sin embargo, en algunos sistemas los directorios temporales deben purgarse manualmente.",
     "systemDebugCardInfo": "Habilita la depuración para identificar problemas en tu instalación.",
-    "systemDebugInfo": "Cuando la depuración está activada, todos los procesos de Automad se registrarán en la consola de tu navegador, así como en archivos <code>.json</code> dentro del directorio temporal. La depuración sólo es necesaria para el desarrollo o la resolución de problemas y debe desactivarse en todos los demás casos.",
+    "systemDebugInfo": "Cuando la depuración está activada, todos los procesos de Automad se registrarán en la consola de tu navegador, así como en archivos JSON dentro del directorio temporal. Los archivos JSON pueden visualizarse utilizando los comandos CLI <code>log:filter</code> y <code>log:list</code> Automad. La depuración sólo es necesaria para el desarrollo o la resolución de problemas y debe desactivarse en todos los demás casos.",
     "systemI18n": "Internacionalización",
     "systemI18nCardInfo": "Activar y configurar el contenido multilingüe",
     "systemI18nDefault": "Configuración regional predeterminada",

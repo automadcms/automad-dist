@@ -477,7 +477,7 @@
     "systemCachePurge": "清除缓存目录",
     "systemCachePurgeInfo": "与简单的清除缓存不同，清除缓存目录还会将所有临时文件、已删除页面、更新备份和缓存图片移动到系统的临时目录。这将强制全面重建图像和页面缓存，并清理所有已删除的页面。在大多数系统中，临时目录会不时或在重启时自动清理。但在某些系统中，临时目录必须手动清除。",
     "systemDebugCardInfo": "启用调试功能，以便发现安装中的问题",
-    "systemDebugInfo": "启用调试功能后，Automad 的所有进程都将记录到浏览器控制台以及临时目录中的<code>.json</code>文件中。只有在开发或故障排除时才需要调试，其他情况下均应禁用。",
+    "systemDebugInfo": "启用调试功能后，Automad 的所有进程都会记录到浏览器控制台以及临时目录中的 JSON 文件中。可以使用<code>log:filter</code>和<code>log:list</code> Automad CLI 命令查看 JSON 文件。只有在开发或故障排除时才需要调试，其他情况下均应禁用。",
     "systemI18n": "国际化",
     "systemI18nCardInfo": "启用和配置多语言内容",
     "systemI18nDefault": "默认地域",

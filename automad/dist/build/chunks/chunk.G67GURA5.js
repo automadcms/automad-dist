@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{k as i}from"./chunk.URMIVSL7.js";import{f as r,g as s}from"./chunk.SQMRGQ3J.js";var e=class extends i{static get observedAttributes(){return["am-form"]}get relatedForms(){let t=r(`[am-api="${this.elementAttributes["am-form"]}"]`);return t.length==0&&(t=s("[am-api]",this)),t}connectedCallback(){let t=()=>{if(this.hasAttribute("disabled"))return!1;this.relatedForms.forEach(o=>{o.submit()})};this.setAttribute("tabindex","0"),this.listen(this,"click",t.bind(this))}};customElements.define("am-submit",e);export{e as a};

@@ -477,7 +477,7 @@
     "systemCachePurge": "Rensing av hurtigbuffer-katalogen",
     "systemCachePurgeInfo": "I motsetning til bare å tømme hurtigbufferen, vil rensing av hurtigbufferkatalogen også flytte alle midlertidige filer, slettede sider, sikkerhetskopier av oppdateringer og bufrede bilder til den midlertidige katalogen i systemet. Dette vil tvinge frem en fullstendig gjenoppbygging av bilde- og sidebufferen samt en opprydding av alle slettede sider. På de fleste systemer ryddes den midlertidige katalogen automatisk fra tid til annen eller ved omstart. På noen systemer må imidlertid midlertidige kataloger tømmes manuelt.",
     "systemDebugCardInfo": "Aktiver feilsøking for å identifisere problemer med installasjonen.",
-    "systemDebugInfo": "Når feilsøking er aktivert, logges alle prosesser på Automad i nettleserens konsoll og i <code>.json</code> filer i den midlertidige katalogen. Feilsøking er kun nødvendig for utvikling eller feilsøking og bør deaktiveres i alle andre tilfeller.",
+    "systemDebugInfo": "Når feilsøking er aktivert, logges alle Automad sine prosesser i nettleserens konsoll og i JSON-filer i den midlertidige katalogen. JSON-filer kan vises ved hjelp av CLI-kommandoene <code>log:filter</code> og <code>log:list</code> Automad. Feilsøking er bare nødvendig for utvikling eller feilsøking, og bør deaktiveres i alle andre tilfeller.",
     "systemI18n": "Internasjonalisering",
     "systemI18nCardInfo": "Aktivere og konfigurere flerspråklig innhold",
     "systemI18nDefault": "Standard lokalisering",

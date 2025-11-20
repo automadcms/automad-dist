@@ -477,7 +477,7 @@
     "systemCachePurge": "Wyczyść katalog pamięci podręcznej",
     "systemCachePurgeInfo": "W przeciwieństwie do zwykłego czyszczenia pamięci podręcznej, wyczyszczenie katalogu pamięci podręcznej spowoduje również przeniesienie wszystkich plików tymczasowych, usuniętych stron, kopii zapasowych aktualizacji i obrazów z pamięci podręcznej do katalogu tymczasowego systemu. Wymusi to pełną przebudowę pamięci podręcznej obrazów i stron, a także wyczyszczenie wszystkich usuniętych stron. W większości systemów katalog tymczasowy będzie czyszczony automatycznie od czasu do czasu lub przy ponownym uruchomieniu. Jednak w niektórych systemach katalogi tymczasowe muszą być czyszczone ręcznie.",
     "systemDebugCardInfo": "Włącz debugowanie, aby zidentyfikować problemy z instalacją.",
-    "systemDebugInfo": "Gdy debugowanie jest włączone, wszystkie procesy Automad będą rejestrowane w konsoli przeglądarki, a także w plikach <code>.json</code> w katalogu tymczasowym. Debugowanie jest potrzebne tylko do rozwoju lub rozwiązywania problemów i powinno być wyłączone we wszystkich innych przypadkach.",
+    "systemDebugInfo": "Gdy debugowanie jest włączone, wszystkie procesy Automad będą rejestrowane w konsoli przeglądarki, a także w plikach JSON w katalogu tymczasowym. Pliki JSON można przeglądać za pomocą poleceń CLI <code>log:filter</code> i <code>log:list</code> Automad. Debugowanie jest potrzebne tylko do rozwoju lub rozwiązywania problemów i powinno być wyłączone we wszystkich innych przypadkach.",
     "systemI18n": "Internacjonalizacja",
     "systemI18nCardInfo": "Włącz i skonfiguruj zawartość wielojęzyczną",
     "systemI18nDefault": "Domyślna lokalizacja",

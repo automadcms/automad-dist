@@ -477,7 +477,7 @@
     "systemCachePurge": "Išvalyti talpyklos katalogą",
     "systemCachePurgeInfo": "Priešingai nei tiesiog išvalant talpyklą, valant talpyklos katalogą į laikinąjį sistemos katalogą taip pat perkeliami visi laikinieji failai, ištrinti puslapiai, atnaujintos atsarginės kopijos ir talpyklos vaizdai. Tai privers visiškai iš naujo atkurti vaizdų ir puslapių talpyklą bei išvalyti visus ištrintus puslapius. Daugumoje sistemų laikinasis katalogas laikas nuo laiko arba perkraunant sistemą išvalomas automatiškai. Tačiau kai kuriose sistemose laikinuosius katalogus reikia išvalyti rankiniu būdu.",
     "systemDebugCardInfo": "Įgalinkite derinimą, kad galėtumėte nustatyti diegimo problemas.",
-    "systemDebugInfo": "Kai įjungtas derinimas, visi Automad procesai bus registruojami naršyklės konsolėje ir laikinajame kataloge esančiuose <code>.json</code> failuose <code>.</code> Derinimas reikalingas tik kuriant arba šalinant trikdžius, o visais kitais atvejais jį reikėtų išjungti.",
+    "systemDebugInfo": "Kai įjungtas derinimas, visi Automad's procesai bus registruojami naršyklės konsolėje ir laikinajame kataloge esančiuose JSON failuose. JSON failus galima peržiūrėti naudojant <code>log:filter</code> ir <code>log:list</code> Automad CLI komandas. Derinimas reikalingas tik kuriant arba šalinant trikdžius ir visais kitais atvejais turėtų būti išjungtas.",
     "systemI18n": "Internacionalizavimas",
     "systemI18nCardInfo": "Įjungtas ir sukonfigūruotas daugiakalbis turinys",
     "systemI18nDefault": "Numatytoji vietovė",

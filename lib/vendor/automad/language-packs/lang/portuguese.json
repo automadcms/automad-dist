@@ -477,7 +477,7 @@
     "systemCachePurge": "Limpa a Cache do Diretório",
     "systemCachePurgeInfo": "Em contraste com a simples limpeza da cache, a limpeza do diretório de cache também moverá todos os ficheiros temporários, páginas eliminadas, cópias de segurança de actualizações e imagens em cache para o diretório temporário do sistema. Isto irá forçar uma reconstrução completa da cache de imagens e páginas, bem como uma limpeza de todas as páginas apagadas. Na maioria dos sistemas, o diretório temporário será limpo automaticamente de tempos em tempos ou na reinicialização. No entanto, em alguns sistemas, os directórios temporários têm de ser limpos manualmente.",
     "systemDebugCardInfo": "Permite a depuração para identificar problemas com a tua instalação",
-    "systemDebugInfo": "Quando a depuração está activada, todos os processos de Automad serão registados na consola do teu browser, bem como em ficheiros <code>.json</code> dentro do diretório temporário. A depuração só é necessária para desenvolvimento ou resolução de problemas e deve ser desactivada em todos os outros casos.",
+    "systemDebugInfo": "Quando a depuração está activada, todos os processos do Automad serão registados na consola do teu browser, bem como em ficheiros JSON dentro do diretório temporário. Os ficheiros JSON podem ser visualizados utilizando os comandos CLI <code>log:filter</code> e <code>log:list</code> Automad. A depuração só é necessária para desenvolvimento ou resolução de problemas e deve ser desactivada em todos os outros casos.",
     "systemI18n": "Internacionalização",
     "systemI18nCardInfo": "Ativar e configurar conteúdos multilingues",
     "systemI18nDefault": "Localidade predefinida",

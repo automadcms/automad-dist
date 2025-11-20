@@ -477,7 +477,7 @@
     "systemCachePurge": "Cache könyvtár tisztítása",
     "systemCachePurgeInfo": "A gyorsítótár egyszerű törlésével ellentétben a gyorsítótár könyvtár kitisztítása az összes ideiglenes fájlt, törölt oldalt, frissítési biztonsági mentést és gyorsítótárazott képet is a rendszer ideiglenes könyvtárába helyezi át. Ez kikényszeríti a képek és oldalak gyorsítótárának teljes újjáépítését, valamint az összes törölt oldal megtisztítását. A legtöbb rendszeren az ideiglenes könyvtár időről időre vagy újraindításkor automatikusan megtisztul. Egyes rendszereken azonban az ideiglenes könyvtárakat manuálisan kell törölni.",
     "systemDebugCardInfo": "A hibakeresés engedélyezése a telepítéssel kapcsolatos problémák azonosítása érdekében.",
-    "systemDebugInfo": "Ha a hibakeresés engedélyezve van, a Automad összes folyamata naplózásra kerül a böngésző konzoljában, valamint az ideiglenes könyvtárban lévő <code>.json</code> fájlokban. A hibakeresés csak fejlesztéshez vagy hibaelhárításhoz szükséges, és minden más esetben ki kell kapcsolni.",
+    "systemDebugInfo": "Ha a hibakeresés engedélyezve van, a Automad összes folyamata naplózásra kerül a böngésző konzoljában, valamint az ideiglenes könyvtárban lévő JSON fájlokban. A JSON fájlok a <code>log:filter</code> és <code>log:list</code> Automad CLI parancsok segítségével tekinthetők meg. A hibakeresésre csak fejlesztés vagy hibaelhárítás esetén van szükség, és minden más esetben ki kell kapcsolni.",
     "systemI18n": "Internacionalizálás",
     "systemI18nCardInfo": "Többnyelvű tartalom engedélyezése és konfigurálása",
     "systemI18nDefault": "Alapértelmezett helymeghatározás",

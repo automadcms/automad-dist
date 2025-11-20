@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{C as s,a as e,k as o}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var t=class extends o{connectedCallback(){let n=[];for(let[a,l]of Object.entries(e.languages))n.push({text:a,value:l});s(n,e.system.translation,this,"translation","","",["am-f-select--inline"])}};customElements.define("am-language-select",t);

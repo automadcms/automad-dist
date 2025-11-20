@@ -477,7 +477,7 @@
     "systemCachePurge": "Vyčistiť adresár vyrovnávacej pamäte",
     "systemCachePurgeInfo": "Na rozdiel od jednoduchého vymazania vyrovnávacej pamäte sa vyčistením adresára vyrovnávacej pamäte presunú do dočasného adresára systému aj všetky dočasné súbory, odstránené stránky, zálohy aktualizácií a obrázky v medzipamäti. Tým sa vynúti úplné obnovenie vyrovnávacej pamäte obrázkov a stránok, ako aj vyčistenie všetkých odstránených stránok. Vo väčšine systémov sa dočasný adresár z času na čas alebo pri reštarte vyčistí automaticky. V niektorých systémoch sa však dočasné adresáre musia vyčistiť ručne.",
     "systemDebugCardInfo": "Povolenie ladenia s cieľom identifikovať problémy s inštaláciou",
-    "systemDebugInfo": "Keď je povolené ladenie, všetky procesy Automad'sa zaznamenávajú do konzoly prehliadača, ako aj do súborov <code>.json</code> v dočasnom adresári. Ladenie je potrebné len pri vývoji alebo riešení problémov a vo všetkých ostatných prípadoch by malo byť vypnuté.",
+    "systemDebugInfo": "Keď je povolené ladenie, všetky procesy Automad'sa zaznamenávajú do konzoly prehliadača, ako aj do súborov JSON v dočasnom adresári. Súbory JSON možno zobraziť pomocou príkazov <code>log:filter</code> a <code>log:list</code> Automad CLI. Ladenie je potrebné len pri vývoji alebo riešení problémov a vo všetkých ostatných prípadoch by malo byť vypnuté.",
     "systemI18n": "Internacionalizácia",
     "systemI18nCardInfo": "Povolenie a konfigurácia viacjazyčného obsahu",
     "systemI18nDefault": "Predvolená lokalita",

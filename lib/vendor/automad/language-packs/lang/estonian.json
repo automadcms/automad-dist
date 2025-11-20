@@ -477,7 +477,7 @@
     "systemCachePurge": "Puhastada vahemälu kataloogi",
     "systemCachePurgeInfo": "Erinevalt lihtsalt vahemälu tühjendamisest liiguvad vahemälu kataloogi puhastamise korral ka kõik ajutised failid, kustutatud leheküljed, uuenduste varukoopiad ja vahemällu salvestatud pildid süsteemi ajutisse kataloogi. See sunnib pilte ja lehekülgede vahemälu täielikult ümber ehitama ning puhastab kõik kustutatud leheküljed. Enamikus süsteemides puhastatakse ajutine kataloog aeg-ajalt või taaskäivitamisel automaatselt. Mõnes süsteemis tuleb ajutised kataloogid siiski käsitsi kustutada.",
     "systemDebugCardInfo": "Võimaldab vigade kõrvaldamise, et tuvastada probleeme teie installatsiooniga.",
-    "systemDebugInfo": "Kui silumine on sisse lülitatud, logitakse kõik Automad protsessid brauseri konsooli ja ajutises kataloogis olevatesse <code>.json</code> failidesse. Veaotsing on vajalik ainult arenduse või tõrkeotsingu jaoks ja tuleks kõigil muudel juhtudel välja lülitada.",
+    "systemDebugInfo": "Kui silumine on sisse lülitatud, logitakse kõik Automad'i protsessid nii brauseri konsooli kui ka ajutises kataloogis olevatesse JSON-failidesse. JSON-faile saab vaadata, kasutades <code>log:filter</code> ja <code>log:list</code> Automad CLI käske. Veaotsing on vajalik ainult arenduse või tõrkeotsingu jaoks ja tuleks kõigil muudel juhtudel välja lülitada.",
     "systemI18n": "Rahvusvahelistumine",
     "systemI18nCardInfo": "Lubatud ja konfigureeritud mitmekeelne sisu",
     "systemI18nDefault": "Vaikimisi kohalik keel",

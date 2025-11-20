@@ -477,7 +477,7 @@
     "systemCachePurge": "Purge Cache Directory",
     "systemCachePurgeInfo": "Spre deosebire de simpla ștergere a memoriei cache, curățarea directorului cache va muta, de asemenea, toate fișierele temporare, paginile șterse, actualizările de rezervă și imaginile din memoria cache în directorul temporar al sistemului. Acest lucru va forța o reconstrucție completă a imaginii și a cache-ului de pagini, precum și o curățare a tuturor paginilor șterse. Pe majoritatea sistemelor, directorul temporar va fi curățat automat din când în când sau la repornire. Cu toate acestea, pe unele sisteme, directoarele temporare trebuie să fie curățate manual.",
     "systemDebugCardInfo": "Activați depanarea pentru a identifica problemele legate de instalarea dvs.",
-    "systemDebugInfo": "Când depanarea este activată, toate procesele Automad's vor fi înregistrate în consola browserului, precum și în fișierele <code>.json</code> din interiorul directorului temporar. Depanarea este necesară doar pentru dezvoltare sau depanare și trebuie dezactivată în toate celelalte cazuri.",
+    "systemDebugInfo": "Atunci când depanarea este activată, toate procesele Automad vor fi înregistrate în consola browserului, precum și în fișiere JSON din directorul temporar. Fișierele JSON pot fi vizualizate utilizând comenzile CLI <code>log:filter</code> și <code>log:list</code> Automad. Depanarea este necesară numai pentru dezvoltare sau depanare și trebuie dezactivată în toate celelalte cazuri.",
     "systemI18n": "Internaționalizare",
     "systemI18nCardInfo": "Activarea și configurarea conținutului multilingv",
     "systemI18nDefault": "Locație implicită",

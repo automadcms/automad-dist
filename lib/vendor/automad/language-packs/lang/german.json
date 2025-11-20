@@ -477,7 +477,7 @@
     "systemCachePurge": "Cache-Verzeichnis leeren",
     "systemCachePurgeInfo": "Im Gegensatz zum einfachen Löschen des Caches werden beim Leeren des Cache-Verzeichnisses auch alle temporären Dateien, gelöschten Seiten, Update-Backups und gecachten Bilder in das temporäre Verzeichnis des Systems verschoben. Dies erzwingt einen vollständigen Neuaufbau des Bild- und Seitencaches sowie eine Bereinigung aller gelöschten Seiten. Auf den meisten Systemen wird das temporäre Verzeichnis von Zeit zu Zeit oder bei einem Neustart automatisch aufgeräumt. Auf manchen Systemen müssen die temporären Verzeichnisse jedoch manuell gelöscht werden.",
     "systemDebugCardInfo": "Aktiviere das Debugging, um Probleme mit deiner Installation zu erkennen",
-    "systemDebugInfo": "Wenn das Debugging aktiviert ist, werden alle Prozesse von Automad in der Konsole deines Browsers sowie in <code>.json</code> Dateien im temporären Verzeichnis protokolliert. Das Debugging wird nur für die Entwicklung oder die Fehlersuche benötigt und sollte in allen anderen Fällen deaktiviert werden.",
+    "systemDebugInfo": "Wenn das Debugging aktiviert ist, werden alle Prozesse von Automad in der Konsole deines Browsers und in JSON-Dateien im temporären Verzeichnis protokolliert. Die JSON-Dateien können mit den CLI-Befehlen <code>log:filter</code> und <code>log:list</code> Automad eingesehen werden. Das Debugging wird nur für die Entwicklung oder die Fehlersuche benötigt und sollte in allen anderen Fällen deaktiviert werden.",
     "systemI18n": "Internationalisierung",
     "systemI18nCardInfo": "Aktiviere und konfiguriere mehrsprachige Inhalte",
     "systemI18nDefault": "Standard-Lokalisierung",

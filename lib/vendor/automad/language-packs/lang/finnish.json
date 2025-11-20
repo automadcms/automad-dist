@@ -477,7 +477,7 @@
     "systemCachePurge": "Puhdista välimuistihakemisto",
     "systemCachePurgeInfo": "Toisin kuin pelkkä välimuistin tyhjentäminen, välimuistihakemiston tyhjentäminen siirtää myös kaikki väliaikaiset tiedostot, poistetut sivut, päivitysten varmuuskopiot ja välimuistiin tallennetut kuvat järjestelmän väliaikaiseen hakemistoon. Tämä pakottaa kuvien ja sivujen välimuistin täydelliseen uudelleenrakentamiseen sekä kaikkien poistettujen sivujen puhdistamiseen. Useimmissa järjestelmissä väliaikainen hakemisto siivotaan automaattisesti aika ajoin tai uudelleenkäynnistyksen yhteydessä. Joissakin järjestelmissä väliaikaiset hakemistot on kuitenkin tyhjennettävä manuaalisesti.",
     "systemDebugCardInfo": "Ota käyttöön virheenkorjaus, jotta voit tunnistaa asennukseen liittyvät ongelmat.",
-    "systemDebugInfo": "Kun virheenkorjaus on käytössä, kaikki Automad:n prosessit kirjataan selaimen konsoliin sekä <code>.json</code> tiedostoihin väliaikaisessa hakemistossa. Virheenkorjausta tarvitaan vain kehitystyössä tai vianmäärityksessä, ja se tulisi poistaa käytöstä kaikissa muissa tapauksissa.",
+    "systemDebugInfo": "Kun virheenkorjaus on käytössä, kaikki Automad:n prosessit kirjautuvat selaimen konsoliin sekä väliaikaisessa hakemistossa oleviin JSON-tiedostoihin. JSON-tiedostoja voi tarkastella käyttämällä <code>log:filter-</code> ja <code>log:list</code> Automad CLI-komentoja. Vianmääritystä tarvitaan vain kehitystyössä tai vianmäärityksessä, ja se tulisi poistaa käytöstä kaikissa muissa tapauksissa.",
     "systemI18n": "Kansainvälistäminen",
     "systemI18nCardInfo": "Monikielisen sisällön käyttöönotto ja määrittäminen",
     "systemI18nDefault": "Oletuspaikkakunta",

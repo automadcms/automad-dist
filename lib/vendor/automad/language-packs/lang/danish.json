@@ -477,7 +477,7 @@
     "systemCachePurge": "Rensning af cache-mappe",
     "systemCachePurgeInfo": "I modsætning til blot at rydde cachen, vil rensning af cache-mappen også flytte alle midlertidige filer, slettede sider, opdaterings-backups og cachelagrede billeder til den midlertidige mappe i systemet. Dette vil fremtvinge en fuld genopbygning af billed- og sidecachen samt en oprydning af alle slettede sider. På de fleste systemer vil den midlertidige mappe blive ryddet op automatisk fra tid til anden eller ved genstart. Men på nogle systemer skal midlertidige mapper renses manuelt.",
     "systemDebugCardInfo": "Aktivér debugging for at identificere problemer med din installation.",
-    "systemDebugInfo": "Når debugging er aktiveret, vil alle Automad's processer blive logget i din browsers konsol samt i <code>.json</code> filer i den midlertidige mappe. Debugging er kun nødvendig til udvikling eller fejlfinding og bør være deaktiveret i alle andre tilfælde.",
+    "systemDebugInfo": "Når debugging er aktiveret, logges alle Automad's processer til browserens konsol samt til JSON-filer i den midlertidige mappe. JSON-filer kan ses ved hjælp af CLI-kommandoerne <code>log:filter</code> og <code>log:list</code> Automad. Fejlfinding er kun nødvendig i forbindelse med udvikling eller fejlfinding og bør deaktiveres i alle andre tilfælde.",
     "systemI18n": "Internationalisering",
     "systemI18nCardInfo": "Aktiver og konfigurer flersproget indhold",
     "systemI18nDefault": "Standard-lokalitet",

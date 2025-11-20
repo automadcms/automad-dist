@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{k as o}from"./chunk.KG3NJGTQ.js";import{e}from"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var t=class extends o{static get observedAttributes(){return["am-modal"]}connectedCallback(){let s=()=>{e(this.elementAttributes["am-modal"]).toggle()};this.listen(this,"click",s.bind(this))}};customElements.define("am-modal-toggle",t);

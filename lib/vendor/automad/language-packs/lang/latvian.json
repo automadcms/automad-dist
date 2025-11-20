@@ -477,7 +477,7 @@
     "systemCachePurge": "Iztīrīt kešatmiņas direktoriju",
     "systemCachePurgeInfo": "Atšķirībā no vienkāršas kešatmiņas dzēšanas, kešatmiņas direktorijas attīrīšana arī pārvietos visus pagaidu failus, dzēstās lapas, atjauninājumu dublējumus un kešatmiņas attēlus uz sistēmas pagaidu direktoriju. Tas piespiedīs pilnībā atjaunot attēlu un lapu kešatmiņu, kā arī iztīrīt visas dzēstās lapas. Lielākajā daļā sistēmu pagaidu direktorija laiku pa laikam vai pēc atkārtotas palaišanas tiek iztīrīta automātiski. Tomēr dažās sistēmās pagaidu direktoriji ir jāiztīra manuāli.",
     "systemDebugCardInfo": "Iespējot atkļūdošanu, var identificēt instalācijas problēmas.",
-    "systemDebugInfo": "Ja ir iespējota atkļūdošana, visi Automad's procesi tiks reģistrēti pārlūkprogrammas konsoles logā, kā arī <code>.json</code> failos pagaidu direktorijā <code>.</code> Atkaļķošana ir nepieciešama tikai izstrādes vai problēmu novēršanas vajadzībām, un visos citos gadījumos tā ir jāizslēdz.",
+    "systemDebugInfo": "Ja ir iespējota atkļūdošana, visi Automad's procesi tiks reģistrēti pārlūkprogrammas konsoles logā, kā arī JSON failos pagaidu direktorijā. JSON failus var apskatīt, izmantojot <code>log:filter</code> un <code>log:list</code> Automad CLI komandas. Atšķirstu atkļūdošana ir nepieciešama tikai izstrādes vai problēmu novēršanas vajadzībām, un visos citos gadījumos tā ir jāizslēdz.",
     "systemI18n": "Internacionalizācija",
     "systemI18nCardInfo": "Ieslēgt un konfigurēt daudzvalodu saturu",
     "systemI18nDefault": "Noklusējuma vietne",
