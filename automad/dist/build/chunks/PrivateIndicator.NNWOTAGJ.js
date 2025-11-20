@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as t,da as a,k as s}from"./chunk.DFXEN6GE.js";import{a as e}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var i=class extends s{connectedCallback(){this.classList.add("am-c-privacy-indicator"),this.listen(window,"AutomadAppStateChange",this.render.bind(this)),this.render()}render(){let n=a();this.innerHTML="",t.pages[n]?.private?e("i",["bi","bi-eye-slash-fill"],{},this):e("i",["bi","bi-eye"],{},this)}};customElements.define("am-private-indicator",i);

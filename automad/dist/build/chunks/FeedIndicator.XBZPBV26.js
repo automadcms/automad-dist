@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as r}from"./chunk.P5PI45B6.js";import"./chunk.76NKJPXB.js";import{a as e}from"./chunk.DFXEN6GE.js";import"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var t=class extends r{get textOn(){return e.text("feedEnabled")}get textOff(){return e.text("feedDisabled")}get state(){return e.system.feed.enabled}};customElements.define("am-system-feed-indicator",t);

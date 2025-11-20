@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{a as o}from"./chunk.JUL2RV5W.js";import"./chunk.35Q3TAL6.js";import{M as t,W as r}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var e=class extends o{get pageTitle(){return"Create User"}renderMainPartial(){return t`<am-setup-form ${"am-api"}="${"UserCollectionController::createFirstUser"}" ${"am-focus"} ${"am-enter"} ></am-setup-form>`}};customElements.define(r("setup"),e);export{e as SetupComponent};

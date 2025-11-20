@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a as o}from"./chunk.XLZECZH5.js";import"./chunk.MRFNG22X.js";import{M as t,W as s,a as r}from"./chunk.DFXEN6GE.js";import"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var e=class extends o{get pageTitle(){return r.text("resetPassword")}renderMainPartial(){return t`<am-reset-password-form ${"am-api"}="${"UserController::resetPassword"}" ></am-reset-password-form>`}};customElements.define(s("resetpassword"),e);export{e as ResetPasswordComponent};

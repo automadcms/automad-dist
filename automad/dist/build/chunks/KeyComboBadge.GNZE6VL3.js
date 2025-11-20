@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{k as e,la as s}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var t=class extends e{static get observedAttributes(){return["am-key"]}connectedCallback(){this.classList.add("am-e-key-combo");let i=s();this.textContent=`${i} + ${this.elementAttributes["am-key"]}`,this.removeAttribute("am-key")}};customElements.define("am-key-combo-badge",t);

@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{a as n}from"./chunk.I66BNPGK.js";import"./chunk.RVCFECCW.js";import{a as t}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var e=class extends n{get textOn(){return t.text("i18nEnabled")}get textOff(){return t.text("i18nDisabled")}get state(){return t.system.i18n}};customElements.define("am-system-i18n-indicator",e);

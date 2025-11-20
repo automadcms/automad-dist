@@ -1,2 +1,2 @@
-/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
-import"../chunks/chunk.VZSTAIPL.js";import"../chunks/chunk.KMHGAFHL.js";import"../chunks/chunk.KC7M4D2V.js";import("../chunks/InPageDock.V424OKDR.js");import("../chunks/InPageEdit.WZKZSUA7.js");import("../chunks/InPagePublish.AW4BCYQF.js");
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import"../chunks/chunk.WF6Y3CNL.js";import"../chunks/chunk.KROC3M5A.js";import"../chunks/chunk.2NNYUVDG.js";import("../chunks/InPageDock.XYU6O7H7.js");import("../chunks/InPageEdit.6CZFIPUM.js");import("../chunks/InPagePublish.QJUJ7223.js");

@@ -1,2 +1,0 @@
-/* Automad 2.0.0-alpha.48, (c) 2025 Marc Anton Dahmen, MIT license */
-import{a}from"./chunk.XUX5YWUW.js";import"./chunk.DFXEN6GE.js";import{a as t}from"./chunk.G4EF3EQN.js";import"./chunk.GP2ROWMN.js";import"./chunk.KC7M4D2V.js";var e=class extends a{createInput(){let{name:d,id:i,value:s,placeholder:n}=this._data,o=s.match(/[\d-]+T\d\d:\d\d/)?.[0]??"";t("input",["am-f-input"],{id:i,name:d,value:o,type:"datetime-local",placeholder:n},this)}};customElements.define("am-date-field",e);

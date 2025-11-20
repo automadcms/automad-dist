@@ -1,0 +1,2 @@
+/* Automad, (c) Marc Anton Dahmen, MIT license */
+import{a as r}from"./chunk.I66BNPGK.js";import"./chunk.RVCFECCW.js";import{a as t}from"./chunk.URMIVSL7.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var e=class extends r{get textOn(){return t.text("debugEnabled")}get textOff(){return t.text("debugDisabled")}get state(){return t.system.debug}};customElements.define("am-system-debug-indicator",e);
