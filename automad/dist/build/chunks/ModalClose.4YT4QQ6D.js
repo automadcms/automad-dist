@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{k as e,l as t}from"./chunk.KG3NJGTQ.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var s=class extends e{connectedCallback(){let i=()=>{let o=this.closest(t.TAG_NAME);this.hasAttribute("disabled")||o instanceof t&&o.close()};this.listen(this,"click",i.bind(this))}};customElements.define("am-modal-close",s);

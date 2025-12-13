@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{a as s}from"./chunk.NUXW563X.js";import{a as t}from"./chunk.KG3NJGTQ.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var e=class extends s{render(){this.innerHTML=`<am-icon-text class="${t.system.mail.transport==="smtp"?"am-u-text-active":"am-u-text-muted"}" am-icon="send" am-text="${t.system.mail.transport}" ></am-icon-text>`}};customElements.define("am-system-mail-indicator",e);

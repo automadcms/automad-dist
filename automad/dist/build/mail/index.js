@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import"../chunks/chunk.2NNYUVDG.js";var s=r=>{let e=[];for(let t=0;t<r.length;t++)e.push(r.charCodeAt(t));return e},i=(r,e)=>{let t=s(e),o=t.length,c=s(atob(r)),d=c.length,a="";for(let n=0;n<d;n++)a+=String.fromCharCode(c[n]^t[n%o]);return a.replace(/\0/g,"")},m=()=>{Array.from(document.querySelectorAll("[data-eml]")).forEach(e=>{let t=e.dataset.eml,o=e.dataset.key;e.removeAttribute("data-eml"),e.removeAttribute("data-key"),e.addEventListener("click",()=>{e.href=`mailto:${i(t,o)}`})})};m();

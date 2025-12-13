@@ -1,2 +1,0 @@
-/* Automad, (c) Marc Anton Dahmen, MIT license */
-import{Q as i,k as e}from"./chunk.KG3NJGTQ.js";import"./chunk.SQMRGQ3J.js";import"./chunk.ZTO3KGQP.js";import"./chunk.2NNYUVDG.js";var t=class extends e{static get observedAttributes(){return["value"]}connectedCallback(){this.listen(this,"click",async()=>{await navigator.clipboard.writeText(this.elementAttributes.value),i(this.elementAttributes.value)})}};customElements.define("am-copy",t);
