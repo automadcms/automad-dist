@@ -1,52 +1,6 @@
 {
     "packages": [
         {
-            "name": "automad/meta-tags",
-            "version": "1.1.3",
-            "version_normalized": "1.1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/automadcms/automad-meta-tags.git",
-                "reference": "ecf01d8dc978e4ca4f186c78c765ab12883cb49a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/automadcms/automad-meta-tags/zipball/ecf01d8dc978e4ca4f186c78c765ab12883cb49a",
-                "reference": "ecf01d8dc978e4ca4f186c78c765ab12883cb49a",
-                "shasum": ""
-            },
-            "require": {
-                "automad/package-installer": "^1.1"
-            },
-            "time": "2020-11-12T20:14:27+00:00",
-            "type": "automad-package",
-            "installation-source": "dist",
-            "autoload": {
-                "classmap": [
-                    ""
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marc Anton Dahmen",
-                    "homepage": "https://marcdahmen.de"
-                }
-            ],
-            "description": "This Automad extension creates meta tags in templates. It also supports the Open Graph protocol to create beautiful preview cards for Facebook and Twitter.",
-            "keywords": [
-                "extension"
-            ],
-            "support": {
-                "issues": "https://github.com/automadcms/automad-meta-tags/issues",
-                "source": "https://github.com/automadcms/automad-meta-tags/tree/1.1.3"
-            },
-            "install-path": "../../packages/automad/meta-tags"
-        },
-        {
             "name": "automad/package-installer",
             "version": "1.1.2",
             "version_normalized": "1.1.2.0",
@@ -97,25 +51,24 @@
             "install-path": "../automad/package-installer"
         },
         {
-            "name": "automad/standard-v1",
-            "version": "1.0.13",
-            "version_normalized": "1.0.13.0",
+            "name": "automad/standard-lite",
+            "version": "0.1.0",
+            "version_normalized": "0.1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/automadcms/automad-standard-v1.git",
-                "reference": "17e91e803041ffd31e84e78ac6742e042a98f532"
+                "url": "https://github.com/automadcms/automad-standard-lite.git",
+                "reference": "977c6ac03bb6915442f305b9c9cc1645ba28b066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/automadcms/automad-standard-v1/zipball/17e91e803041ffd31e84e78ac6742e042a98f532",
-                "reference": "17e91e803041ffd31e84e78ac6742e042a98f532",
+                "url": "https://api.github.com/repos/automadcms/automad-standard-lite/zipball/977c6ac03bb6915442f305b9c9cc1645ba28b066",
+                "reference": "977c6ac03bb6915442f305b9c9cc1645ba28b066",
                 "shasum": ""
             },
             "require": {
-                "automad/meta-tags": "^1.1 || dev-master",
                 "automad/package-installer": "^1.1 || dev-master"
             },
-            "time": "2025-11-05T19:07:40+00:00",
+            "time": "2025-12-25T20:20:21+00:00",
             "type": "automad-package",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -128,7 +81,7 @@
                     "homepage": "https://marcdahmen.de"
                 }
             ],
-            "description": "The official Automad Standard theme v1.",
+            "description": "The new Standard for Automad version 2",
             "keywords": [
                 "automad",
                 "blog",
@@ -137,8 +90,8 @@
                 "theme"
             ],
             "support": {
-                "issues": "https://github.com/automadcms/automad-standard-v1/issues",
-                "source": "https://github.com/automadcms/automad-standard-v1/tree/1.0.13"
+                "issues": "https://github.com/automadcms/automad-standard-lite/issues",
+                "source": "https://github.com/automadcms/automad-standard-lite/tree/0.1.0"
             },
             "funding": [
                 {
@@ -154,7 +107,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "install-path": "../../packages/automad/standard-v1"
+            "install-path": "../../packages/automad/standard-lite"
         }
     ],
     "dev": true,

@@ -1,0 +1,129 @@
+{
+  "labels": {
+    "authorName": "Name des Autor",
+    "authorContact": "Autor Kontakt (Email oder Website)",
+    "brand": "Branding Logo (SVG, HTML oder Text)",
+    "selectPageDateFormat": "Datumsformat",
+    "selectDefaultPagelistDateFormat": "Das Default-Datumsformat für Pagelist-Inhalte",
+    "imageLogo": "Logo als Bild (PNG, JPG, etc.)",
+    "imagePagelist": "Vorschaubild in Pagelists",
+    "numberLogoWidthDesktop": "Logo-Breite auf Desktop-Bildschirmen",
+    "numberLogoWidthMobile": "Logo-Breite auf kleinen Bildschirmen",
+    "selectNavbarLayout": "Navigationsleisten-Layout",
+    "selectNavbarSticky": "Navigationsleiste-Verhalten",
+    "selectSidebarToggleVisiblity": "Sichtbarkeit von Seitenleisten Toggle in der Navigationsleiste",
+    "checkboxHideNavbarLinksInMobileSidebar": "Navigationsleiste in mobiler Seitenleiste ausblenden",
+    "checkboxCollapseSidebarNavigation": "Elternseiten in Seitenleiste zusammenfassen",
+    "checkboxCompactLayout": "Kompaktes Layout (kleinere Spalten zwischen Elementen)",
+    "selectMainPagelistSubset": "Haupt-Pagelist: Art von Pagelist-Inhalt",
+    "urlMainPagelistContext": "Haupt-Pagelist: Die URL der Seite, welche als Pagelist Kontext dient",
+    "selectMainPagelistLayout": "Haupt-Pagelist: Layout",
+    "checkboxNarrowMainPagelist": "Haupt-Pagelist: Pagelist nicht auf volle Breite ausdehnen (schmal)",
+    "selectMainPagelistSort": "Haupt-Pagelist: Sortierung",
+    "selectMainPagelistDateFormat": "Haupt-Pagelist: Datumsformat",
+    "numberMainPagelistMaxNumberOfPages": "Haupt-Pagelist: Maximale Anzahl von dargestellen Unterseiten pro Seite",
+    "selectTagPagelistLayout": "Schlagwort Overlay: Layout",
+    "selectTagPagelistSort": "Schlagwort Overlay: Sortierung",
+    "selectTagPagelistDateFormat": "Schlagwort Overlay: Datumsformat",
+    "numberTagPagelistMaxNumberOfPages": "Schlagwort Overlay: Maximale Anzahl von dargestellen Unterseiten pro Seite",
+    "checkboxHideRelatedPages": "Verwandte Seiten: Verwandte Seiten im Footer ausblenden",
+    "selectRelatedPagelistLayout": "Verwandte Seiten: Layout",
+    "selectRelatedPagelistSort": "Verwandte Seiten: Sortierung",
+    "selectRelatedPagelistDateFormat": "Verwandte Seiten: Datumsformat",
+    "numberRelatedPagelistMaxNumberOfPages": "Verwandte Seiten: Maximale Anzahl von Unterseiten",
+    "colorLightFg1": "Helles Farbthema: Primäre Text-Farbe",
+    "colorLightFg2": "Helles Farbthema: Sekundäre Text-Farbe",
+    "colorLightBg1": "Helles Farbthema: Hintergrund 1 (Seite)",
+    "colorLightBg2": "Helles Farbthema: Hintergrund 2 (Karten)",
+    "colorLightBg3": "Helles Farbthema: Hintergrund 3 (Schlagwörter, etc.)",
+    "colorDarkFg1": "Dunkles Farbthema: Primäre Text-Farbe",
+    "colorDarkFg2": "Dunkles Farbthema: Sekundäre Text-Farbe",
+    "colorDarkBg1": "Dunkles Farbthema: Hintergrund 1 (Seite)",
+    "colorDarkBg2": "Dunkles Farbthema: Hintergrund 2 (Karten)",
+    "colorDarkBg3": "Dunkles Farbthema: Hintergrund 3 (Schlagwörter, etc.)",
+    "selectColorTheme": "Farbthema (hell/dunkel)",
+    "checkboxHideTitle": "Seitentitel ausblenden",
+    "checkboxHideTags": "Schlagwörter ausblenden",
+    "checkboxDisableSearch": "Suche deaktivieren",
+    "checkboxHideBreadcrumbs": "Breadcrumb-Navigation ausblenden",
+    "checkboxHidePreviousAndNextPageNavigation": "Vorherige/Nächste-Navigation ausblenden",
+    "checkboxDisableAnimations": "Animationen deaktivieren",
+    "selectShowPageInNavbar": "Seite in der Navigationsleiste anzeigen",
+    "selectShowPageInFooter": "Seite im Footer-Bereich anzeigen",
+    "labelBackToTop": "Beschriftung für \"Zurück zum Seitenanfang\""
+  },
+  "options": {
+    "__dateFormat__": {
+      "M Y": "Monat und Jahr",
+      "Y": "Nur Jahr",
+      "j. M Y": "Lang",
+      "l, j. M Y": "Lang mit Wochentag",
+      "M j, Y": "US Format",
+      "l, M j, Y": "US Format mit Wochentag",
+      "Y-m-d": "YYYY-MM-DD",
+      "ymd": "YYMMDD"
+    },
+    "__pagelistLayout__": {
+      "blog_grid": "Blog Posts, angeordnet in einem Raster",
+      "grid_image_top": "Raster Layout, Bilder oben bündig",
+      "list": "Minimale Liste",
+      "masonry": "Masonry Layout"
+    },
+    "__pagelistSort__": {
+      ":index asc": "Manuelle Sortierung",
+      "date desc": "Neueste zuerst",
+      "date asc": "Älteste zuerst",
+      "title asc": "Alphabetisch"
+    },
+    "selectColorTheme": {
+      "switcher": "Theme-Switcher anzeigen, auswählbar durch Besucher",
+      "light": "Hell",
+      "dark": "Dunkel"
+    },
+    "selectPageDateFormat": "__dateFormat__",
+    "selectDefaultPagelistDateFormat": "__dateFormat__",
+    "selectNavbarLayout": {
+      "horizontal": "Horizontal am Raster ausgerichtete Links",
+      "full": "Horizontal ausgerichtete Links (volle Breite)",
+      "right": "Horizontal rechts ausgerichtete Links",
+      "vertical": "Vertikal angeordnete Links"
+    },
+    "selectNavbarSticky": {
+      "scroll": "Navbar nur bein Scrollen nach oben anzeigen",
+      "always": "Navbar immer am oberen Rand sichtbar machen",
+      "disabled": "Navbar nicht fixieren"
+    },
+    "selectSidebarToggleVisiblity": {
+      "automatic": "Automatisch",
+      "mobile": "Nur auf kleinen Geräten",
+      "hidden": "Niemals anzeigen"
+    },
+    "selectMainPagelistSubset": {
+      "children": "Nur direkte Unterseiten from aktuellen Kontext anzeigen",
+      "siblings": "Nur Nachbarseiten anzeigen"
+    },
+    "selectMainPagelistDateFormat": "__dateFormat__",
+    "selectMainPagelistSort": "__pagelistSort__",
+    "selectMainPagelistLayout": "__pagelistLayout__",
+    "selectRelatedPagelistDateFormat": "__dateFormat__",
+    "selectRelatedPagelistSort": "__pagelistSort__",
+    "selectRelatedPagelistLayout": "__pagelistLayout__",
+    "selectTagPagelistDateFormat": "__dateFormat__",
+    "selectTagPagelistSort": "__pagelistSort__",
+    "selectTagPagelistLayout": "__pagelistLayout__",
+    "selectShowPageInNavbar": {
+      "link": "Als normalen Link anzeigen",
+      "action": "Als call-to-action Button anzeigen"
+    },
+    "selectShowPageInFooter": {
+      "primary": "In primärem Footer-Bereich anzeigen",
+      "secondary": "In sekundärem Footer-Bereich anzeigen"
+    }
+  },
+  "tooltips": {
+    "+hero": "Der Hero Bereich",
+    "+main": "Der Haupt-Inhalt",
+    "+footer": "Ein zusätzlicher Footer Bereich, welcher auch global definiert werden kann",
+    "selectDefaultPagelistDateFormat": "Diese Format wird auch von Pagelist-Blöcken genutzt"
+  }
+}
