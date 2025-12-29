@@ -54,7 +54,7 @@ https://marcdahmen.de
 		:navCount: @{ :navCount | + @{ :pagelistCount } }
 	} @>
 	<@~ if @{ :navCount } ~@>
-		<std-sidebar-toggle class="std-navbar__icon std-sidebar-toggle--@{ selectSidebarToggleVisiblity }">
+		<std-sidebar-toggle class="std-navbar__icon std-sidebar-toggle--@{ selectSidebarToggleVisiblity | def ('automatic') }">
 			<@ icon { name: 'menu' } @>
 		</std-sidebar-toggle>
 	<@~ end ~@>
