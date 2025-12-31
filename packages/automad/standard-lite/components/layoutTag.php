@@ -30,11 +30,9 @@ https://marcdahmen.de
 			</div>
 		</div>
 	</std-navbar>
-	<div class="std-layout std-layout--tag">
-		<std-layout-tag-pagelist class="std-layout__main">
-			<div class="std-layout__title">
-				<h1>@{ ?tag }</h1>
-			</div>
+	<std-layout-tag-pagelist class="std-layout std-layout--tag">
+		<div class="std-layout__title std-title">
+			<h1>@{ ?tag }</h1>
 			<div class="std-tags">
 				<@ foreach in filters @>
 					<@ if @{ :filter } != @{ ?tag } @>
@@ -45,20 +43,22 @@ https://marcdahmen.de
 					<@ end @>
 				<@ end @>
 			</div>
-			<@ set { 
-				:page: @{ ?page | def (1) },
-				:dateFormat: @{ selectTagPagelistDateFormat | def ('M Y') }
-			} @>
-			<@ newPagelist {
-				filter: @{ ?tag },
-				sort: @{ selectTagPagelistSort | def (':index asc') },
-				limit: @{ numberTagPagelistMaxNumberOfPages | def (12) },
-				page: @{ :page }
-			} @>	
+		</div>
+		<@ set { 
+			:page: @{ ?page | def (1) },
+			:dateFormat: @{ selectTagPagelistDateFormat | def ('M Y') }
+		} @>
+		<@ newPagelist {
+			filter: @{ ?tag },
+			sort: @{ selectTagPagelistSort | def (':index asc') },
+			limit: @{ numberTagPagelistMaxNumberOfPages | def (12) },
+			page: @{ :page }
+		} @>	
+		<div class="std-layout__main">
 			<@ pagelistLayout { layout: @{ selectTagPagelistLayout | def ('masonry') } } @>
 			<@ pagelist/pagination.php @>
-		</std-layout-tag-pagelist>
-	</div>
+		</div>
+	</std-layout-tag-pagelist>
 <@~ end ~@>
 
 <@ layoutTag @>
