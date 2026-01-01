@@ -17,4 +17,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Checkout
         uses: actions/checkout@v4
-      - run: chmod +x .github/workflows/docker.sh && bash .github/workflows/docker.sh
+      - run: bash .github/workflows/docker.sh
