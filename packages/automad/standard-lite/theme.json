@@ -2,18 +2,12 @@
   "name": "Standard Lite",
   "description": "The new Standard for Automad version 2",
   "author": "Marc Anton Dahmen",
-  "version": "0.1.0",
   "license": "MIT",
   "masks": {
-    "page": [
-      "checkboxDisableSearch",
-      "checkboxDisableAnimations",
-      "labelBackToTop"
-    ],
+    "page": ["checkboxDisableSearch", "checkboxDisableAnimations"],
     "shared": [
       "+hero",
       "+main",
-      "imagePagelist",
       "selectShowPageInNavbar",
       "selectShowPageInFooter",
       "numberMainPagelistMaxNumberOfPages"
