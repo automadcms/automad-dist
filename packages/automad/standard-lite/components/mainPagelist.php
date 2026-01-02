@@ -28,7 +28,7 @@ https://marcdahmen.de
 		page: @{ :page }
 	} @>	
 	<div<@ if @{ checkboxNarrowMainPagelist } @> class="am-block"<@ end @>>
-		<std-pagelist-filters target="std-pagelist" class="std-tags">
+		<std-pagelist-filters target="std-pagelist" class="std-tags std-pagelist-filters">
 			<@ foreach in filters @>
 				<@ if @{ :filter } != @{ ?filter } @>
 					<a href="@{ url }?filter=@{ :filter }" class="std-tag">

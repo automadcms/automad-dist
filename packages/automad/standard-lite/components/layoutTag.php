@@ -33,16 +33,6 @@ https://marcdahmen.de
 	<std-layout-tag-pagelist class="std-layout std-layout--tag">
 		<div class="std-layout__title std-title">
 			<h1>@{ ?tag }</h1>
-			<div class="std-tags">
-				<@ foreach in filters @>
-					<@ if @{ :filter } != @{ ?tag } @>
-						<a href="?tag=@{ :filter }" class="std-tag">
-							<@ icon { name: 'tag' } @>
-							@{ :filter }
-						</a>
-					<@ end @>
-				<@ end @>
-			</div>
 		</div>
 		<@ set { 
 			:page: @{ ?page | def (1) },
@@ -55,6 +45,16 @@ https://marcdahmen.de
 			page: @{ :page }
 		} @>	
 		<div class="std-layout__main">
+			<div class="std-tags std-pagelist-filters">
+				<@ foreach in filters @>
+					<@ if @{ :filter } != @{ ?tag } @>
+						<a href="?tag=@{ :filter }" class="std-tag">
+							<@ icon { name: 'tag' } @>
+							@{ :filter }
+						</a>
+					<@ end @>
+				<@ end @>
+			</div>
 			<@ pagelistLayout { layout: @{ selectTagPagelistLayout | def ('masonry') } } @>
 			<@ pagelist/pagination.php @>
 		</div>
