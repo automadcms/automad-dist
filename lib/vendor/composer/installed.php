@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'automad/lib',
-        'pretty_version' => '2.0.0-beta.7',
-        'version' => '2.0.0.0-beta7',
-        'reference' => 'd28ad2dee88d8c5555eb55409c555d843727efa3',
+        'pretty_version' => '2.0.0-beta.8',
+        'version' => '2.0.0.0-beta8',
+        'reference' => '9a3effdbf9cee42901cc89541e4c8de7caeaeebe',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'automad/language-packs' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'f5147664b9c6f2f6f73a36632008bf1ffea59f66',
+            'reference' => 'e0849394b292205532ea4dd0de0080c16eb4ee8f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automad/language-packs',
             'aliases' => array(
@@ -22,9 +22,9 @@
             'dev_requirement' => false,
         ),
         'automad/lib' => array(
-            'pretty_version' => '2.0.0-beta.7',
-            'version' => '2.0.0.0-beta7',
-            'reference' => 'd28ad2dee88d8c5555eb55409c555d843727efa3',
+            'pretty_version' => '2.0.0-beta.8',
+            'version' => '2.0.0.0-beta8',
+            'reference' => '9a3effdbf9cee42901cc89541e4c8de7caeaeebe',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
