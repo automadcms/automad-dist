@@ -27,8 +27,9 @@ https://marcdahmen.de
 		limit: @{ numberMainPagelistMaxNumberOfPages | def (12) },
 		page: @{ :page }
 	} @>	
-	<div<@ if @{ checkboxNarrowMainPagelist } @> class="am-block"<@ end @>>
-		<std-pagelist-filters target="std-pagelist" class="std-tags std-pagelist-filters">
+	<@ if not @{ checkboxNarrowMainPagelist } @><am-stretched><@ end @>
+	<div class="am-block">
+		<std-pagelist-filters target="std-pagelist" class="std-tags">
 			<@ foreach in filters @>
 				<@ if @{ :filter } != @{ ?filter } @>
 					<a href="@{ url }?filter=@{ :filter }" class="std-tag">
@@ -48,4 +49,5 @@ https://marcdahmen.de
 			<@ pagelist/pagination.php @>
 		</div>
 	</div>	
+	<@ if not @{ checkboxNarrowMainPagelist } @></am-stretched><@ end @>
 </main>

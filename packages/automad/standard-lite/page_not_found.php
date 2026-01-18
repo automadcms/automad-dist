@@ -23,3 +23,5 @@ https://marcdahmen.de
 	</main>
 <@~ end ~@>
 
+<@ snippet toc @>
+<@ end @>

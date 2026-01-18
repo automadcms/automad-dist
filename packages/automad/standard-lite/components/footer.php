@@ -32,7 +32,7 @@ https://marcdahmen.de
 	<footer class="std-layout__footer std-footer">
 		<@ footerNavPrimary @>
 		<@ footerNavSecondary @>
-		@{ +footer | trim | replace ('/\\s*(.+)\\s*/is', '<section>$1</section>') }
+		@{ +footer | replace ('/\\s*(.+)\\s*/is', '<section>$1</section>') }
 	</footer>
 <@~ end ~@>
 

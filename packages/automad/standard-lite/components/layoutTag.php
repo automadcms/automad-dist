@@ -45,7 +45,7 @@ https://marcdahmen.de
 			page: @{ :page }
 		} @>	
 		<div class="std-layout__main">
-			<div class="std-tags std-pagelist-filters">
+			<div class="std-tags">
 				<@ foreach in filters @>
 					<@ if @{ :filter } != @{ ?tag } @>
 						<a href="?tag=@{ :filter }" class="std-tag">
