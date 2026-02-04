@@ -21,16 +21,19 @@ Take a look at the [documentation](https://automad.org) to get started with Auto
 
 ## Community
 
-Join the community, ask questions or start a discussion on the Automad [discussion platform](https://automad.org/discuss).
+Join the community, ask questions or start a discussion on the Automad [discussion platform](https://github.com/orgs/automadcms/discussions).
 
 ## Contributing
 
-Pull-requests are ignored for this repository and will be closed automatically. However, in case you are interested in contributing, the following types of contribution are welcome:
+> [!IMPORTANT]
+> Please note that pull requests to this repository are not accepted and will not be merged.
+
+However, in case you are interested in contributing, the following types of contribution are welcome:
 
 - Improving [language packs](https://github.com/automadcms/automad-language-packs) by fixing translation errors or adding new languages
-- [Publishing packages](https://automad.org/developer-guide/publishing-packages) like themes or extensions to the Automad package [browser](https://packages.automad.org)
 - Giving feedback and helping to grow a [community](https://automad.org/discuss)
 - Reporting bugs or requesting features at [GitHub](https://github.com/marcantondahmen/automad/issues)
+- Reporting [security vulnerabilities](https://github.com/marcantondahmen/automad/security)
 
 ---
 
