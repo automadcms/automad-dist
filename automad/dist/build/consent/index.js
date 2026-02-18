@@ -4,5 +4,5 @@ var i=(e,t=[],o={},n=null,s=null,l=!1)=>{let r=document.createElement(e);t.forEa
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */

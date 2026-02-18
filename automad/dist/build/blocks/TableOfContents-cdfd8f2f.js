@@ -4,5 +4,5 @@ var p=(i,e=document)=>Array.from(e.querySelectorAll(i));var l=class{element;get 
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */

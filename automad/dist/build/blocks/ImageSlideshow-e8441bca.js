@@ -8,5 +8,5 @@ var as=Object.defineProperty;var B=(s,e)=>()=>(s&&(e=s(s=0)),e);var Ue=(s,e)=>{f
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */

@@ -5,7 +5,7 @@ var re=Object.create;var X=Object.defineProperty;var ae=Object.getOwnPropertyDes
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */
 /*! Bundled license information:
 

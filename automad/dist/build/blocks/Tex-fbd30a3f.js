@@ -4,5 +4,5 @@ var r=class{constructor(t){this.render(t)}async render(t){t.style.display="none"
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */

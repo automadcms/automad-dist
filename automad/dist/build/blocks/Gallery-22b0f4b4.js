@@ -4,7 +4,7 @@ var ae=Object.defineProperty;var re=(o,t)=>()=>(o&&(t=o(o=0)),t);var le=(o,t)=>{
  * Automad (https://automad.org)
  * 
  * Copyright (c) 2026 Marc Anton Dahmen (https://marcdahmen.de)
- * Automad is licensed under the MIT license
+ * See LICENSE.md for license information.
  */
 /*! Bundled license information:
 
