@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
+class ComposerStaticInita40c8d7a9d9cbf63dd0759794bcac6ef
 {
     public static $files = array (
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
@@ -40,6 +40,11 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Clock\\' => 10,
+            'ParagonIE\\ConstantTime\\' => 23,
+        ),
+        'O' =>
+        array (
+            'OTPHP\\' => 6,
         ),
         'M' =>
         array (
@@ -52,12 +57,17 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
         'D' =>
         array (
             'Doctrine\\Common\\Lexer\\' => 22,
+            'DASPRiD\\Enum\\' => 13,
         ),
         'C' =>
         array (
             'Cocur\\Slugify\\' => 14,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
+        ),
+        'B' =>
+        array (
+            'BaconQrCode\\' => 12,
         ),
     );
 
@@ -130,6 +140,14 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
+        'ParagonIE\\ConstantTime\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
+        ),
+        'OTPHP\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/spomky-labs/otphp/src',
+        ),
         'Michelf\\' =>
         array (
             0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
@@ -142,6 +160,10 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
+        'DASPRiD\\Enum\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/dasprid/enum/src',
+        ),
         'Cocur\\Slugify\\' =>
         array (
             0 => __DIR__ . '/..' . '/cocur/slugify/src',
@@ -153,6 +175,10 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
         'Carbon\\' =>
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'BaconQrCode\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
         ),
     );
 
@@ -175,9 +201,9 @@ class ComposerStaticInit1cc689cdac2db121f8996de3c018371f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1cc689cdac2db121f8996de3c018371f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1cc689cdac2db121f8996de3c018371f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1cc689cdac2db121f8996de3c018371f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita40c8d7a9d9cbf63dd0759794bcac6ef::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita40c8d7a9d9cbf63dd0759794bcac6ef::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita40c8d7a9d9cbf63dd0759794bcac6ef::$classMap;
 
         }, null, ClassLoader::class);
     }
