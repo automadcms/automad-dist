@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Conta recuperada",
     "accountRecoverySuccessText": "A tua palavra-passe foi actualizada e a autenticação de dois factores foi desactivada. Podes agora iniciar sessão e configurar novamente a 2FA.",
     "accountRecoveryTokenSentHeading": "Verifica o teu e-mail",
-    "accountRecoveryTokenSentText": "Foi enviado um e-mail de verificação para a tua caixa de entrada. Clica na ligação do e-mail para definires uma nova palavra-passe e completares a recuperação da conta.",
+    "accountRecoveryTokenSentText": "Se o nome de utilizador ou o e-mail fornecido corresponder a uma conta, foi enviado um e-mail de verificação para a tua caixa de entrada. Clica na ligação do e-mail para definires uma nova palavra-passe e completares a recuperação da conta.",
     "add": "Adiciona",
     "addImage": "Adiciona imagens",
     "addPage": "Adicionar página",

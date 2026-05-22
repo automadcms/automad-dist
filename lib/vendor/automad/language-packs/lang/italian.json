@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Account recuperato",
     "accountRecoverySuccessText": "La tua password è stata aggiornata e l'autenticazione a due fattori è stata disattivata. Ora puoi accedere e impostare nuovamente l'autenticazione a due fattori.",
     "accountRecoveryTokenSentHeading": "Controlla la tua email",
-    "accountRecoveryTokenSentText": "Un'e-mail di verifica è stata inviata alla tua casella di posta. Clicca sul link contenuto nell'e-mail per impostare una nuova password e completare il recupero dell'account.",
+    "accountRecoveryTokenSentText": "Se il nome utente o l'e-mail forniti corrispondono a un account, è stata inviata un'e-mail di verifica nella tua casella di posta. Clicca sul link contenuto nell'e-mail per impostare una nuova password e completare il recupero dell'account.",
     "add": "Aggiungi",
     "addImage": "Aggiungere immagini",
     "addPage": "Aggiungi pagina",

@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Konto taastunud",
     "accountRecoverySuccessText": "Parool on uuendatud ja kahefaktoriline autentimine on välja lülitatud. Nüüd saate sisse logida ja 2FA uuesti seadistada.",
     "accountRecoveryTokenSentHeading": "Kontrollige oma e-posti",
-    "accountRecoveryTokenSentText": "Teie postkasti on saadetud kinnitav e-kiri. Klõpsake e-kirjas olevale lingile, et määrata uus parool ja viia lõpule konto taastamine.",
+    "accountRecoveryTokenSentText": "Kui esitatud kasutajanimi või e-posti aadress vastab kontole, on teie postkasti saadetud kinnitav e-kiri. Klõpsake e-kirjas olevale lingile, et määrata uus parool ja viia lõpule konto taastamine.",
     "add": "Lisage",
     "addImage": "Pildi lisamine",
     "addPage": "Lisa lehekülg",

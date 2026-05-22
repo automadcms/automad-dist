@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Odzyskane konto",
     "accountRecoverySuccessText": "Twoje hasło zostało zaktualizowane, a uwierzytelnianie dwuskładnikowe zostało wyłączone. Możesz teraz zalogować się i ponownie skonfigurować 2FA.",
     "accountRecoveryTokenSentHeading": "Sprawdź swoją pocztę e-mail",
-    "accountRecoveryTokenSentText": "Weryfikacyjna wiadomość e-mail została wysłana na Twoją skrzynkę odbiorczą. Kliknij link w wiadomości e-mail, aby ustawić nowe hasło i zakończyć odzyskiwanie konta.",
+    "accountRecoveryTokenSentText": "Jeśli podana nazwa użytkownika lub adres e-mail pasuje do konta, na Twoją skrzynkę odbiorczą zostanie wysłana wiadomość weryfikacyjna. Kliknij łącze w wiadomości e-mail, aby ustawić nowe hasło i dokończyć odzyskiwanie konta.",
     "add": "Dodaj",
     "addImage": "Dodaj obraz",
     "addPage": "Dodaj stronę",

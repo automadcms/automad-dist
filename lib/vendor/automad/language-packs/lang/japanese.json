@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "アカウント回復",
     "accountRecoverySuccessText": "パスワードが更新され、二要素認証が無効になった。サインインして再度2FAを設定できるようになった。",
     "accountRecoveryTokenSentHeading": "Eメールをチェックする",
-    "accountRecoveryTokenSentText": "あなたの受信トレイに認証メールが送信された。メール内のリンクをクリックして、新しいパスワードを設定し、アカウントの回復を完了する。",
+    "accountRecoveryTokenSentText": "提供されたユーザー名またはEメールがアカウントと一致する場合、確認Eメールが受信トレイに送信されている。メールに記載されているリンクをクリックして、新しいパスワードを設定し、アカウントの回復を完了する。",
     "add": "追加する",
     "addImage": "画像を追加する",
     "addPage": "ページを追加する",

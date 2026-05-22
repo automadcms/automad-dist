@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Cuenta recuperada",
     "accountRecoverySuccessText": "Se ha actualizado tu contraseña y se ha desactivado la autenticación de dos factores. Ahora puedes iniciar sesión y volver a configurar 2FA.",
     "accountRecoveryTokenSentHeading": "Comprueba tu correo electrónico",
-    "accountRecoveryTokenSentText": "Se ha enviado un correo electrónico de verificación a tu bandeja de entrada. Haz clic en el enlace del correo electrónico para establecer una nueva contraseña y completar la recuperación de la cuenta.",
+    "accountRecoveryTokenSentText": "Si el nombre de usuario o el correo electrónico proporcionados coinciden con una cuenta, se ha enviado un correo electrónico de verificación a tu bandeja de entrada. Haz clic en el enlace del correo electrónico para establecer una nueva contraseña y completar la recuperación de la cuenta.",
     "add": "Añade",
     "addImage": "Añadir imagen",
     "addPage": "Añadir página",

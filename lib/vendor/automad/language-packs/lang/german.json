@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Konto wiederhergestellt",
     "accountRecoverySuccessText": "Dein Passwort wurde aktualisiert und die Zwei-Faktor-Authentifizierung wurde deaktiviert. Du kannst dich jetzt anmelden und die 2FA wieder einrichten.",
     "accountRecoveryTokenSentHeading": "Überprüfe deine E-Mail",
-    "accountRecoveryTokenSentText": "Eine Bestätigungs-E-Mail wurde an deinen Posteingang gesendet. Klicke auf den Link in der E-Mail, um ein neues Passwort festzulegen und die Wiederherstellung des Kontos abzuschließen.",
+    "accountRecoveryTokenSentText": "Wenn der angegebene Benutzername oder die E-Mail-Adresse mit einem Konto übereinstimmen, wurde eine Bestätigungs-E-Mail an deinen Posteingang gesendet. Klicke auf den Link in der E-Mail, um ein neues Passwort festzulegen und das Konto wiederherzustellen.",
     "add": "Hinzufügen",
     "addImage": "Bild hinzufügen",
     "addPage": "Seite hinzufügen",

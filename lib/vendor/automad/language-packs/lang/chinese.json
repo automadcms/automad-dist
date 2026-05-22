@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "恢复账户",
     "accountRecoverySuccessText": "您的密码已更新，双因素验证已禁用。您现在可以登录并重新设置 2FA。",
     "accountRecoveryTokenSentHeading": "检查电子邮件",
-    "accountRecoveryTokenSentText": "一封验证电子邮件已发送到您的收件箱。点击电子邮件中的链接，设置新密码并完成账户恢复。",
+    "accountRecoveryTokenSentText": "如果提供的用户名或电子邮件与某个账户匹配，一封验证电子邮件将发送到您的收件箱。点击电子邮件中的链接，设置新密码并完成账户恢复。",
     "add": "添加",
     "addImage": "添加图片",
     "addPage": "添加页面",

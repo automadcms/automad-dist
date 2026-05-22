@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Genoprettet konto",
     "accountRecoverySuccessText": "Din adgangskode er blevet opdateret, og to-faktor-autentificering er blevet deaktiveret. Du kan nu logge ind og opsætte 2FA igen.",
     "accountRecoveryTokenSentHeading": "Tjek din e-mail",
-    "accountRecoveryTokenSentText": "En bekræftelsesmail er blevet sendt til din indbakke. Klik på linket i e-mailen for at indstille en ny adgangskode og fuldføre kontogendannelsen.",
+    "accountRecoveryTokenSentText": "Hvis det angivne brugernavn eller e-mail svarer til en konto, er der sendt en bekræftelses-e-mail til din indbakke. Klik på linket i e-mailen for at indstille en ny adgangskode og fuldføre kontogendannelsen.",
     "add": "Tilføj",
     "addImage": "Tilføj billede",
     "addPage": "Tilføj side",

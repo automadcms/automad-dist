@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Obnovený účet",
     "accountRecoverySuccessText": "Heslo bylo aktualizováno a dvoufaktorové ověřování bylo vypnuto. Nyní se můžete přihlásit a znovu nastavit 2FA.",
     "accountRecoveryTokenSentHeading": "Zkontrolujte svůj e-mail",
-    "accountRecoveryTokenSentText": "Do vaší e-mailové schránky byl odeslán ověřovací e-mail. Klepnutím na odkaz v e-mailu nastavíte nové heslo a dokončíte obnovu účtu.",
+    "accountRecoveryTokenSentText": "Pokud se zadané uživatelské jméno nebo e-mail shoduje s účtem, byl vám do schránky odeslán ověřovací e-mail. Kliknutím na odkaz v e-mailu nastavíte nové heslo a dokončíte obnovu účtu.",
     "add": "Přidání stránky",
     "addImage": "Přidání obrázku",
     "addPage": "Přidání stránky",

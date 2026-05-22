@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Konto återställt",
     "accountRecoverySuccessText": "Ditt lösenord har uppdaterats och tvåfaktorsautentisering har inaktiverats. Du kan nu logga in och ställa in 2FA igen.",
     "accountRecoveryTokenSentHeading": "Kontrollera din e-post",
-    "accountRecoveryTokenSentText": "Ett verifieringsmejl har skickats till din inkorg. Klicka på länken i e-postmeddelandet för att ange ett nytt lösenord och slutföra kontoåterställningen.",
+    "accountRecoveryTokenSentText": "Om det angivna användarnamnet eller e-postmeddelandet matchar ett konto har ett verifieringsmeddelande skickats till din inkorg. Klicka på länken i e-postmeddelandet för att ange ett nytt lösenord och slutföra kontoåterställningen.",
     "add": "Lägg till",
     "addImage": "Lägg till bild",
     "addPage": "Lägg till sida",

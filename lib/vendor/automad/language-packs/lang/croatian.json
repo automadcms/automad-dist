@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Račun je oporavljen",
     "accountRecoverySuccessText": "Vaša je lozinka ažurirana i dvostruka provjera autentičnosti je onemogućena. Sada se možete prijaviti i ponovno postaviti 2FA.",
     "accountRecoveryTokenSentHeading": "Provjerite svoju e-poštu",
-    "accountRecoveryTokenSentText": "Na vaš je sandučić poslana potvrdna e-poruka. Kliknite na poveznicu u e-poruci kako biste postavili novu lozinku i dovršili oporavak računa.",
+    "accountRecoveryTokenSentText": "Ako se navedeno korisničko ime ili e-pošta podudara s računom, e-pošta za provjeru poslana je u vaš sandučić. Kliknite na poveznicu u e-pošti kako biste postavili novu lozinku i dovršili oporavak računa.",
     "add": "Dodaj",
     "addImage": "Dodaj sliku",
     "addPage": "Dodaj stranicu",

@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Konto gjenopprettet",
     "accountRecoverySuccessText": "Passordet ditt er oppdatert, og tofaktorautentisering er deaktivert. Du kan nå logge på og sette opp 2FA igjen.",
     "accountRecoveryTokenSentHeading": "Sjekk e-posten din",
-    "accountRecoveryTokenSentText": "Du har fått en bekreftelses-e-post til innboksen din. Klikk på lenken i e-posten for å angi et nytt passord og fullføre gjenopprettingen av kontoen.",
+    "accountRecoveryTokenSentText": "Hvis det oppgitte brukernavnet eller e-postadressen samsvarer med en konto, har du fått en bekreftelses-e-post i innboksen din. Klikk på lenken i e-posten for å angi et nytt passord og fullføre gjenopprettingen av kontoen.",
     "add": "Legg til",
     "addImage": "Legg til bilder",
     "addPage": "Legg til side",

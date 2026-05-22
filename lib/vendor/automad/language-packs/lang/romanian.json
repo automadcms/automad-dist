@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Cont recuperat",
     "accountRecoverySuccessText": "Parola dvs. a fost actualizată și autentificarea cu doi factori a fost dezactivată. Acum puteți să vă conectați și să configurați din nou 2FA.",
     "accountRecoveryTokenSentHeading": "Verifică-ți e-mailul",
-    "accountRecoveryTokenSentText": "Un e-mail de verificare a fost trimis în căsuța dvs. de e-mail. Faceți clic pe linkul din e-mail pentru a seta o parolă nouă și a finaliza recuperarea contului.",
+    "accountRecoveryTokenSentText": "Dacă numele de utilizator sau adresa de e-mail furnizate corespund unui cont, un e-mail de verificare a fost trimis în căsuța dvs. de e-mail. Faceți clic pe linkul din e-mail pentru a seta o parolă nouă și a finaliza recuperarea contului.",
     "add": "Adăugați",
     "addImage": "Adăugați imagini",
     "addPage": "Adăugare pagină",

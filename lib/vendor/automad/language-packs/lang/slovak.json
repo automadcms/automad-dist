@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Účet obnovený",
     "accountRecoverySuccessText": "Vaše heslo bolo aktualizované a dvojfaktorové overovanie bolo vypnuté. Teraz sa môžete prihlásiť a znova nastaviť 2FA.",
     "accountRecoveryTokenSentHeading": "Skontrolujte svoju e-mailovú adresu",
-    "accountRecoveryTokenSentText": "Do vašej schránky bol odoslaný overovací e-mail. Kliknutím na odkaz v e-maile nastavte nové heslo a dokončite obnovenie účtu.",
+    "accountRecoveryTokenSentText": "Ak sa zadané používateľské meno alebo e-mail zhoduje s účtom, do vašej schránky bol odoslaný overovací e-mail. Kliknutím na odkaz v e-maile nastavte nové heslo a dokončite obnovu účtu.",
     "add": "Pridať stránku",
     "addImage": "Pridať obrázok",
     "addPage": "Pridať stránku",

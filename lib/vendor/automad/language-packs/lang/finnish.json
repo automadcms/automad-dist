@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Tili palautettu",
     "accountRecoverySuccessText": "Salasana on päivitetty ja kaksitekijätodennus on poistettu käytöstä. Voit nyt kirjautua sisään ja määrittää 2FA:n uudelleen.",
     "accountRecoveryTokenSentHeading": "Tarkista sähköpostisi",
-    "accountRecoveryTokenSentText": "Vahvistussähköposti on lähetetty sähköpostiisi. Napsauta sähköpostissa olevaa linkkiä asettaaksesi uuden salasanan ja suorittaaksesi tilin palautuksen.",
+    "accountRecoveryTokenSentText": "Jos annettu käyttäjätunnus tai sähköpostiosoite vastaa tiliä, vahvistussähköposti on lähetetty sähköpostiisi. Napsauta sähköpostissa olevaa linkkiä asettaaksesi uuden salasanan ja saadaksesi tilin palautettua.",
     "add": "Lisää",
     "addImage": "Kuvan lisääminen",
     "addPage": "Lisää sivu",

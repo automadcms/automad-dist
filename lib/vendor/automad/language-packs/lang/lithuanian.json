@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Atkurta paskyra",
     "accountRecoverySuccessText": "Jūsų slaptažodis buvo atnaujintas, o dviejų veiksnių autentifikavimas buvo išjungtas. Dabar galite prisijungti ir vėl nustatyti 2FA.",
     "accountRecoveryTokenSentHeading": "Patikrinkite savo el. paštą",
-    "accountRecoveryTokenSentText": "Patvirtinimo el. laiškas buvo išsiųstas į jūsų pašto dėžutę. Spustelėkite el. laiške esančią nuorodą, kad nustatytumėte naują slaptažodį ir užbaigtumėte paskyros atkūrimą.",
+    "accountRecoveryTokenSentText": "Jei pateiktas naudotojo vardas arba el. pašto adresas atitinka paskyrą, į jūsų pašto dėžutę buvo išsiųstas patvirtinimo el. laiškas. Spustelėkite el. laiške esančią nuorodą, kad nustatytumėte naują slaptažodį ir užbaigtumėte paskyros atkūrimą.",
     "add": "Pridėti",
     "addImage": "Pridėti paveikslėlį",
     "addPage": "Pridėti puslapį",

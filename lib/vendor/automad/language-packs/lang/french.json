@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Compte récupéré",
     "accountRecoverySuccessText": "Ton mot de passe a été mis à jour et l'authentification à deux facteurs a été désactivée. Tu peux maintenant te connecter et configurer à nouveau l'authentification à deux facteurs.",
     "accountRecoveryTokenSentHeading": "Vérifie ton courrier électronique",
-    "accountRecoveryTokenSentText": "Un courriel de vérification a été envoyé à ta boîte de réception. Clique sur le lien contenu dans l'e-mail pour définir un nouveau mot de passe et terminer la récupération du compte.",
+    "accountRecoveryTokenSentText": "Si le nom d'utilisateur ou l'adresse électronique fournis correspondent à un compte, un courriel de vérification a été envoyé dans ta boîte de réception. Clique sur le lien contenu dans l'e-mail pour définir un nouveau mot de passe et terminer la récupération du compte.",
     "add": "Ajouter",
     "addImage": "Ajouter une image",
     "addPage": "Ajouter une page",

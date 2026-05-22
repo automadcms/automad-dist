@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Account hersteld",
     "accountRecoverySuccessText": "Je wachtwoord is bijgewerkt en twee-factor authenticatie is uitgeschakeld. Je kunt je nu aanmelden en 2FA opnieuw instellen.",
     "accountRecoveryTokenSentHeading": "Controleer je e-mail",
-    "accountRecoveryTokenSentText": "Er is een verificatiemail naar je inbox gestuurd. Klik op de link in de e-mail om een nieuw wachtwoord in te stellen en het accountherstel te voltooien.",
+    "accountRecoveryTokenSentText": "Als de opgegeven gebruikersnaam of e-mail overeenkomt met een account, is er een verificatiemail naar je inbox gestuurd. Klik op de link in de e-mail om een nieuw wachtwoord in te stellen en het accountherstel te voltooien.",
     "add": "Toevoegen",
     "addImage": "Afbeelding toevoegen",
     "addPage": "Pagina toevoegen",

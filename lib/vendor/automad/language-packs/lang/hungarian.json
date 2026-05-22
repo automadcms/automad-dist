@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Visszakapott fiók",
     "accountRecoverySuccessText": "A jelszó frissítésre került, és a kétfaktoros hitelesítés kikapcsolásra került. Most már bejelentkezhet és újra beállíthatja a 2FA-t.",
     "accountRecoveryTokenSentHeading": "Ellenőrizze e-mailjét",
-    "accountRecoveryTokenSentText": "Az ellenőrző e-mailt elküldtük a postaládájába. Kattintson az e-mailben található linkre az új jelszó beállításához és a fiók helyreállításának befejezéséhez.",
+    "accountRecoveryTokenSentText": "Ha a megadott felhasználónév vagy e-mail cím egyezik egy fiókkal, akkor egy ellenőrző e-mailt küldtünk a postaládájába. Kattintson az e-mailben található linkre az új jelszó beállításához és a fiók helyreállításának befejezéséhez.",
     "add": "Hozzáadás",
     "addImage": "Kép hozzáadása",
     "addPage": "Oldal hozzáadása",

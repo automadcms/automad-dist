@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Obnovljen račun",
     "accountRecoverySuccessText": "Vaše geslo je bilo posodobljeno, dvostopenjsko preverjanje pristnosti pa onemogočeno. Zdaj se lahko prijavite in ponovno nastavite 2FA.",
     "accountRecoveryTokenSentHeading": "Preverite svojo e-pošto",
-    "accountRecoveryTokenSentText": "V vaš e-poštni predal je bilo poslano potrditveno sporočilo. Kliknite povezavo v e-poštnem sporočilu, da nastavite novo geslo in dokončate obnovitev računa.",
+    "accountRecoveryTokenSentText": "Če se predloženo uporabniško ime ali e-pošta ujema z računom, je bilo v vaš e-poštni predal poslano potrditveno sporočilo. Kliknite povezavo v e-poštnem sporočilu, da nastavite novo geslo in dokončate obnovitev računa.",
     "add": "Dodajte",
     "addImage": "Dodajanje slik",
     "addPage": "Dodajanje strani",

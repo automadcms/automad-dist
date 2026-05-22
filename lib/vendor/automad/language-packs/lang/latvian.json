@@ -14,7 +14,7 @@
     "accountRecoverySuccessHeading": "Atgūts konts",
     "accountRecoverySuccessText": "Jūsu parole ir atjaunināta, un ir atspējota divu faktoru autentifikācija. Tagad varat pierakstīties un atkal iestatīt 2FA.",
     "accountRecoveryTokenSentHeading": "Pārbaudiet savu e-pastu",
-    "accountRecoveryTokenSentText": "Pārbaudes e-pasta vēstule ir nosūtīta uz jūsu iesūtni. Noklikšķiniet uz e-pastā norādītās saites, lai iestatītu jaunu paroli un pabeigtu konta atjaunošanu.",
+    "accountRecoveryTokenSentText": "Ja norādītais lietotājvārds vai e-pasta adrese atbilst kontam, uz jūsu pastkasti ir nosūtīts apstiprinājuma e-pasta vēstule. Noklikšķiniet uz e-pastā norādītās saites, lai iestatītu jaunu paroli un pabeigtu konta atjaunošanu.",
     "add": "Pievienot",
     "addImage": "Pievienot attēlu",
     "addPage": "Pievienot lapu",
