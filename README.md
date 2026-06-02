@@ -36,5 +36,4 @@ However, in case you are interested in contributing, the following types of cont
 
 ---
 
-© 2013-2025 [Marc Anton Dahmen](https://marcdahmen.de)  
-Released under the [MIT license](https://automad.org/license)
+© 2013-2026 [Marc Anton Dahmen](https://marcdahmen.de)
