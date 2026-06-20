@@ -1,5 +1,6 @@
 {
   "labels": {
+    "+pageNotFoundContent": "Inhalt der 404 Seite",
     "authorName": "Name des Autor",
     "authorContact": "Autor Kontakt (Email oder Website)",
     "brand": "Branding Logo (SVG, HTML oder Text)",

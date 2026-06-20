@@ -2,7 +2,7 @@
 
 Standard Lite
 
-© 2024-2025 Marc Anton Dahmen. All rights reserved. Licensed under the MIT license.
+© 2024-2026 Marc Anton Dahmen. All rights reserved. Licensed under the MIT license.
 
 https://marcdahmen.de
 
@@ -13,7 +13,7 @@ https://marcdahmen.de
 		<div class="std-layout__title std-title">
 			<h1>@{ title }</h1>
 			<@ if @{ date } or @{ authorName } @>
-				<span>
+				<span class="std-title__date-author">
 					<@~ if @{ date } @>
 						@{ date | dateFormat (@{ selectPageDateFormat | def ('j. M Y') }, @{ :lang }) }
 					<@ end @>
@@ -31,9 +31,9 @@ https://marcdahmen.de
 <@ snippet tags @>
 	<@ if not @{ checkboxHideTags } and @{ tags } @>
 		<div class="std-title__tags">
-			<@ icon { name: 'tag' } @>
 			<@ foreach in tags ~@>
-				<a href="?tag=@{ :tag }">
+				<a href="?tag=@{ :tag }" class="std-tag">
+					<@ icon { name: 'tag' } @>
 					@{ :tag }
 				</a>
 			<@~ end @>

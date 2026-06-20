@@ -4,7 +4,11 @@
   "author": "Marc Anton Dahmen",
   "license": "MIT",
   "masks": {
-    "page": ["checkboxDisableSearch", "checkboxDisableAnimations"],
+    "page": [
+      "+pageNotFoundContent",
+      "checkboxDisableSearch",
+      "checkboxDisableAnimations"
+    ],
     "shared": [
       "+hero",
       "+main",
@@ -16,6 +20,7 @@
   "fieldOrder": [
     "+hero",
     "+main",
+    "+pageNotFoundContent",
     "+footer",
     "authorName",
     "authorContact",
@@ -70,6 +75,7 @@
     "colorDarkBg3"
   ],
   "labels": {
+    "+pageNotFoundContent": "Content for the 404 page",
     "authorName": "Author name",
     "authorContact": "Author contact (email or website)",
     "brand": "Brand logo (SVG, HTML or text)",
