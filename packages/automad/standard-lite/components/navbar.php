@@ -17,7 +17,7 @@ https://marcdahmen.de
 			</span>
 			<span class="std-navbar__links-items">
 				<@ foreach in pagelist ~@>
-					<a href="@{ url }" class="std-navbar__link <@ if @{ :current } @>std-navbar__link--active<@ end @>">
+					<a href="@{ url }" class="std-navbar__link">
 						@{ title }
 					</a>
 				<@~ end ~@>
@@ -74,21 +74,17 @@ https://marcdahmen.de
 		:navbarSticky: @{ selectNavbarSticky | def('scroll') },
 		:navbarLayout: @{ selectNavbarLayout | def('horizontal') },
 	} ~@>
-	<std-navbar class="std-navbar std-navbar--@{ :navbarLayout }" sticky="@{ :navbarSticky }">
-		<div class="std-navbar__backdrop">
-			<div class="@{ :layoutClass }">
-				<div class="std-layout__navbar std-navbar__container">
-					<div class="std-navbar__brand">
-						<@ brand.php @>
-					</div>
-					<div class="std-navbar__nav">
-						<@ navbarLinks @>
-						<@ navbarButtons @>
-						<@ search @>
-						<@ themeSwitcher @>
-						<@ sidebarOpen @>
-					</div>
-				</div>
+	<std-navbar class="std-layout__navbar @{ :navbarLayout }" sticky="@{ :navbarSticky }">
+		<div class="std-layout__navbar-wrapper std-navbar">
+			<div class="std-layout__navbar-brand">
+				<@ brand.php @>
+			</div>
+			<div class="std-layout__navbar-nav">
+				<@ navbarLinks @>
+				<@ navbarButtons @>
+				<@ search @>
+				<@ themeSwitcher @>
+				<@ sidebarOpen @>
 			</div>
 		</div>
 	</std-navbar>

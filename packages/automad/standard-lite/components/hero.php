@@ -8,8 +8,13 @@ https://marcdahmen.de
 
 #>
 
-<@~ snippet hero @>
-	<section class="std-layout__hero std-content">@{ +hero }</section>	
-<@~ end ~@>
+<# 
+
+This is an empty placeholder. 
+The actual snippet is only defined in templates that
+have a hero section.
+
+#>
+<@~ snippet hero @><@ end ~@>
 
 <@ hero @>

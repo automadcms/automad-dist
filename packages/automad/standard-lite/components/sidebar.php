@@ -50,30 +50,37 @@ https://marcdahmen.de
 <@~ end @>
 
 <@~ snippet sidebarNav @>
-	<@ if @{ checkboxCollapseSidebarNavigation } @>
-		<@ if @{ :level } > 1 @>
-			<@ newPagelist {
-				type: 'breadcrumbs',
-				excludeCurrent: true
-			} ~@>
+	<@ if @{ checkboxCollapseSidebarNavigation } and @{ :level } >= 2 @>
+		<@ newPagelist {
+			type: 'breadcrumbs',
+			excludeCurrent: true
+		} ~@>
+		<@ set { :max: @{ :pagelistCount | -1 } } @>
+		<@ if @{ :level } > 1 and @{ :max } > 1 @>
 			<ul class="std-sidebar__breadcrumbs">
 				<@ foreach in pagelist @>
-					<li class="std-sidebar__node">
-						<a href="@{ url }" class="std-sidebar__item<@ isActive @>">
-							<@ icon { name: 'arrow-left' } @>
-							@{ title }
-						</a>
-					</li>	
+					<@ if @{ :i } < @{ :max } @>
+						<li class="std-sidebar__node">
+							<a href="@{ url }" class="std-sidebar__item std-sidebar__item--directory">
+								<@ icon { name: 'arrow-left' } @>
+								<span class="std-sidebar__item-title">
+									@{ title }
+								</span>
+							</a>
+						</li>	
+					<@ end @>
 				<@ end @>
 			</ul>
 		<@ end @>
 		<@ with @{ :parent | def ('/') } ~@>
-			<ul class="std-sidebar__tree">
-				<@ if not @{ hidden } and @{ url } = '/' @>
-					<li class="std-sidebar__node"><@ sidebarLink @></li>	
-				<@ end @>
-				<@~ tree ~@>
-			</ul>
+			<@ with @{ :parent | def ('/') } ~@>
+				<ul class="std-sidebar__tree">
+					<@ if not @{ hidden } and @{ url } = '/' @>
+						<li class="std-sidebar__node"><@ sidebarLink @></li>	
+					<@ end @>
+					<@~ tree ~@>
+				</ul>
+			<@~ end @>
 		<@~ end @>
 	<@ else @>
 		<@ with '/' ~@>
@@ -90,9 +97,13 @@ https://marcdahmen.de
 <@~ snippet sidebar ~@>
 	<# Backdrop #>
 	<std-sidebar-backdrop class="std-sidebar-backdrop"></std-sidebar-backdrop>
-
-	<aside class="std-layout__sidebar">
-		<nav id="std-sidebar" class="std-sidebar">
+	<aside id="std-sidebar" class="std-layout__sidebar std-sidebar">
+		<@ if @{ template | match ('/sidebar/') } @>
+			<div class="std-sidebar__brand">
+				<@ brand.php @>
+			</div>
+		<@ end @>
+		<div class="std-sidebar__nav">
 			<# Navbar items #>	
 			<@ if not @{ checkboxHideNavbarLinksInMobileSidebar} @>
 				<@ ../lib/navbarActionsPagelist.php @>	
@@ -103,7 +114,6 @@ https://marcdahmen.de
 						<@ end @>
 					</div>
 				<@ end @>
-
 				<@ ../lib/navbarLinksPagelist.php @>	
 				<@ if @{ :pagelistCount } @>
 					<ul class="std-sidebar__navbar-links">
@@ -113,10 +123,9 @@ https://marcdahmen.de
 					</ul>
 				<@ end @>
 			<@ end @>
-
 			<# Tree #>
 			<@ sidebarNav @>
-		</nav>
+		</div>
 	</aside>
 <@~ end ~@>
 

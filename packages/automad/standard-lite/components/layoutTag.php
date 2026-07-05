@@ -12,25 +12,23 @@ https://marcdahmen.de
 	<@ set { 
 		:navbarSticky: @{ selectNavbarSticky | def('scroll') },
 	} ~@>
-	<std-navbar class="std-navbar" sticky="@{ :navbarSticky }">
-		<div class="std-navbar__backdrop">
-			<div class="std-layout std-layout--tag">
-				<div class="std-layout__navbar std-navbar__container">
-					<div class="std-navbar__brand">
-						<@ brand.php @>
-					</div>
-					<div class="std-navbar__nav">
-						<@ themeSwitcher.php @>
-						<a href="@{ url }" class="std-navbar__icon">
-							<@ icon { name: 'x' } @>
-						</a>
-						<std-layout-tag-esc></std-layout-tag-esc>
-					</div>
+
+	<std-layout-tag-pagelist class="std-layout std-layout--tag">
+		<std-navbar class="std-layout__navbar horizontal" sticky="@{ :navbarSticky }">
+			<div class="std-layout__navbar-wrapper std-navbar">
+				<div class="std-layout__navbar-brand">
+					<@ brand.php @>
+				</div>
+				<div class="std-layout__navbar-nav">
+					<@ themeSwitcher.php @>
+					<a href="@{ url }" class="std-navbar__icon">
+						<@ icon { name: 'x' } @>
+					</a>
+					<std-layout-tag-esc></std-layout-tag-esc>
 				</div>
 			</div>
-		</div>
-	</std-navbar>
-	<std-layout-tag-pagelist class="std-layout std-layout--tag">
+		</std-navbar>
+
 		<div class="std-layout__title std-title">
 			<h1>@{ ?tag }</h1>
 		</div>

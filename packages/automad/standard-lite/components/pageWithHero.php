@@ -8,5 +8,8 @@ https://marcdahmen.de
 
 #>
 
-<@~ components/pageWithHero.php @>
+<@~ page.php ~@>
 
+<@~ snippet hero ~@>
+	<section class="std-layout__hero std-content">@{ +hero }</section>	
+<@~ end ~@>

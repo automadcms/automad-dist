@@ -35,5 +35,3 @@ https://marcdahmen.de
 <@ snippet title @>
 <@ end @>
 
-<@ snippet toc @>
-<@ end @>

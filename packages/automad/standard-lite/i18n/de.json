@@ -85,8 +85,8 @@
     "selectDefaultPagelistDateFormat": "__dateFormat__",
     "selectNavbarLayout": {
       "horizontal": "Horizontal am Raster ausgerichtete Links",
-      "full": "Horizontal ausgerichtete Links (volle Breite)",
-      "right": "Horizontal rechts ausgerichtete Links",
+      "right": "Rechts ausgerichtete Links",
+      "full": "Links ausgerichtete Links (in Templates ohne Seitenleiste)",
       "vertical": "Vertikal angeordnete Links"
     },
     "selectNavbarSticky": {

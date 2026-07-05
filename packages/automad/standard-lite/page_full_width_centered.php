@@ -8,7 +8,4 @@ https://marcdahmen.de
 
 #>
 
-<@~ components/page.php @>
-
-<@ snippet toc @>
-<@ end @>
+<@~ components/pageWithHero.php @>

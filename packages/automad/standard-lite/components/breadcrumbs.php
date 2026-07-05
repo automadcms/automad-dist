@@ -17,7 +17,7 @@ https://marcdahmen.de
 		<nav class="std-layout__breadcrumbs std-breadcrumbs">
 			<@ foreach in pagelist @>
 				<@ if @{ :i } > 1 @>
-					/
+					⁄
 				<@ end @>
 				<a href="@{ url }">@{ title }</a>
 			<@ end @>

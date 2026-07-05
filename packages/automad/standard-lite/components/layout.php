@@ -9,15 +9,16 @@ https://marcdahmen.de
 #>
 
 <@~ snippet layout ~@>
-	<@ set { :layoutClass: "std-layout std-layout--@{ template | sanitize }" } @>
-	<@ navbar.php @>
-	<div class="@{ :layoutClass }">
+	<div class="std-layout std-layout--@{ template | sanitize }">
+		<@ sidebar.php @>
+		<@ navbar.php @>
 		<@ hero.php @>
 		<@ breadcrumbs.php @>
 		<@ title.php @>
-		<@ sidebar.php @>
 		<@ main.php @>
-		<@ toc.php @>
+		<@ if @{ template | match ('/_toc/')} @>
+			<@ toc.php @>
+		<@ end @>
 		<@ prevNext.php @>
 		<@ related.php @>
 		<@ footer.php @>

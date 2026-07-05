@@ -149,9 +149,9 @@
     "selectPageDateFormat": "__dateFormat__",
     "selectDefaultPagelistDateFormat": "__dateFormat__",
     "selectNavbarLayout": {
-      "horizontal": "Horizontally aligned links with grid",
-      "full": "Horizontally aligned stretched over the full width",
-      "right": "Horizontally and right aligned links",
+      "horizontal": "Links aligned to the grid",
+      "right": "Links aligned to the right",
+      "full": "Links aligned to the left (in templates without a sidebar)",
       "vertical": "Vertically aligned links"
     },
     "selectNavbarSticky": {
