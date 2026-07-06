@@ -381,6 +381,8 @@
     "packageRemove": "Ukloni",
     "packageRemoving": "Uklanjanje paketa ...",
     "packageUpdate": "Ažuriranje",
+    "packageUpdateAllVersionConstraint": "Neki paketi nisu automatski ažurirani jer su dostupne nove glavne verzije: {} Glavna izdanja mogu uključivati promjene koje narušavaju kompatibilnost. Za nadogradnju tih paketa, uklonite svaki od njih i ponovno ga instalirajte.",
+    "packageUpdateVersionConstraint": "Dostupna je nova glavna verzija ovog paketa. Glavna izdanja mogu uključivati promjene koje su kompatibilne unatrag i stoga se ne instaliraju automatski. Za nadogradnju uklonite paket i ponovno ga instalirajte.",
     "packageUpdatedAllSuccess": "Svi paketi uspješno ažurirani",
     "packageUpdatedSuccess": "Uspješno ažurirano",
     "packageUpdating": "Ažuriranje paketa ...",

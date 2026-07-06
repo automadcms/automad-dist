@@ -381,6 +381,8 @@
     "packageRemove": "Supprimer",
     "packageRemoving": "Supprimer un paquet ...",
     "packageUpdate": "Mise à jour",
+    "packageUpdateAllVersionConstraint": "Certains paquets n’ont pas été mis à jour automatiquement car de nouvelles versions majeures sont disponibles : {} Les versions majeures peuvent inclure des changements incompatibles. Pour mettre à jour ces paquets, désinstalle-les un par un, puis réinstalle-les.",
+    "packageUpdateVersionConstraint": "Une nouvelle version majeure de ce paquet est disponible. Les versions majeures peuvent inclure des changements incompatibles et ne sont donc pas installées automatiquement. Pour effectuer la mise à jour, désinstalle le paquet puis réinstalle-le.",
     "packageUpdatedAllSuccess": "Mise à jour réussie de tous les paquets",
     "packageUpdatedSuccess": "Mise à jour réussie",
     "packageUpdating": "Mise à jour des paquets ...",

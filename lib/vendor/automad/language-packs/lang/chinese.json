@@ -381,6 +381,8 @@
     "packageRemove": "删除",
     "packageRemoving": "删除软件包...",
     "packageUpdate": "更新",
+    "packageUpdateAllVersionConstraint": "部分软件包未自动更新，因为已有新的主要版本可用：{} 主要版本可能包含破坏性变更。要升级这些软件包，请先卸载每个软件包，然后重新安装。",
+    "packageUpdateVersionConstraint": "该软件包的新主要版本现已发布。主要版本可能包含破坏性变更，因此不会自动安装。如需升级，请先卸载该软件包，然后重新安装。",
     "packageUpdatedAllSuccess": "成功更新所有软件包",
     "packageUpdatedSuccess": "成功更新",
     "packageUpdating": "更新软件包...",

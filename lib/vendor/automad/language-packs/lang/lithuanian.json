@@ -381,6 +381,8 @@
     "packageRemove": "Pašalinti",
     "packageRemoving": "Pašalinti paketą ...",
     "packageUpdate": "Atnaujinti",
+    "packageUpdateAllVersionConstraint": "Kai kurie paketai nebuvo atnaujinti automatiškai, nes yra prieinamos naujos pagrindinės versijos: {} Pagrindinėse versijose gali būti esminių pakeitimų. Norėdami atnaujinti šiuos paketus, pašalinkite kiekvieną iš jų ir įdiekite iš naujo.",
+    "packageUpdateVersionConstraint": "Yra prieinama nauja pagrindinė šio paketo versija. Pagrindiniai išleidimai gali turėti esminių pakeitimų, todėl jie nėra įdiegiami automatiškai. Norėdami atnaujinti, pašalinkite paketą ir įdiekite jį iš naujo.",
     "packageUpdatedAllSuccess": "Sėkmingai atnaujinti visi paketai",
     "packageUpdatedSuccess": "Sėkmingai atnaujinta",
     "packageUpdating": "Atnaujinti paketą ...",

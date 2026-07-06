@@ -381,6 +381,8 @@
     "packageRemove": "Remove",
     "packageRemoving": "Remove o pacote ...",
     "packageUpdate": "Atualização",
+    "packageUpdateAllVersionConstraint": "Alguns pacotes não foram atualizados automaticamente porque estão disponíveis novas versões principais: {} As versões principais podem incluir alterações que quebram a compatibilidade. Para atualizar estes pacotes, remove cada um deles e instala-os novamente.",
+    "packageUpdateVersionConstraint": "Está disponível uma nova versão principal deste pacote. As versões principais podem incluir alterações significativas e, por isso, não são instaladas automaticamente. Para atualizar, desinstala o pacote e instala-o novamente.",
     "packageUpdatedAllSuccess": "Atualizou todos os pacotes com sucesso",
     "packageUpdatedSuccess": "Atualizado com sucesso",
     "packageUpdating": "Actualiza o pacote ...",

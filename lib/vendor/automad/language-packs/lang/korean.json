@@ -381,6 +381,8 @@
     "packageRemove": "제거",
     "packageRemoving": "패키지 제거하기 ...",
     "packageUpdate": "업데이트",
+    "packageUpdateAllVersionConstraint": "일부 패키지는 새로운 주요 버전이 출시되었음에도 자동으로 업데이트되지 않았습니다: {} 주요 릴리스에는 호환성을 깨는 변경 사항이 포함될 수 있습니다. 이러한 패키지를 업그레이드하려면 각 패키지를 제거한 후 다시 설치하십시오.",
+    "packageUpdateVersionConstraint": "이 패키지의 새로운 주요 버전이 출시되었습니다. 주요 릴리스에는 호환성을 깨는 변경 사항이 포함될 수 있으므로 자동으로 설치되지 않습니다. 업그레이드하려면 패키지를 제거한 후 다시 설치하십시오.",
     "packageUpdatedAllSuccess": "모든 패키지 업데이트 완료",
     "packageUpdatedSuccess": "업데이트 성공",
     "packageUpdating": "패키지 업데이트 중 ...",

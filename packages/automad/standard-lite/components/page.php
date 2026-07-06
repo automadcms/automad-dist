@@ -13,6 +13,8 @@ https://marcdahmen.de
 
 <@~ if @{ selectColorTheme | def ('switcher') } != 'switcher' @> 
 	<@~ set { :colorTheme: ' @{ selectColorTheme }' } @>
+<@~ else @>
+	<@~ set { :colorTheme: ' <?php echo $_COOKIE['std-user-selected-theme'] ?? ''; ?>' } @>
 <@~ end @>
 
 <@~ if @{ checkboxCompactLayout } @>

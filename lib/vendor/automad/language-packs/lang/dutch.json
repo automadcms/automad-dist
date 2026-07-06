@@ -381,6 +381,8 @@
     "packageRemove": "Verwijderen",
     "packageRemoving": "Pakket verwijderen ...",
     "packageUpdate": "Update",
+    "packageUpdateAllVersionConstraint": "Sommige pakketten zijn niet automatisch bijgewerkt omdat er nieuwe hoofdversies beschikbaar zijn: {} Hoofdversies kunnen ingrijpende wijzigingen bevatten. Om deze pakketten te upgraden, moet je ze één voor één verwijderen en opnieuw installeren.",
+    "packageUpdateVersionConstraint": "Er is een nieuwe hoofdversie van dit pakket beschikbaar. Hoofdversies kunnen ingrijpende wijzigingen bevatten en worden daarom niet automatisch geïnstalleerd. Om te upgraden, verwijder je het pakket en installeer je het opnieuw.",
     "packageUpdatedAllSuccess": "Alle pakketten met succes bijgewerkt",
     "packageUpdatedSuccess": "Succesvol bijgewerkt",
     "packageUpdating": "Pakket bijwerken ...",

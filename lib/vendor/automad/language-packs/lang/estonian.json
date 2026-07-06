@@ -381,6 +381,8 @@
     "packageRemove": "Eemaldage",
     "packageRemoving": "Paketi eemaldamine ...",
     "packageUpdate": "Värskendage",
+    "packageUpdateAllVersionConstraint": "Mõned paketid ei uuendatud automaatselt, kuna on saadaval uued peaversioonid: {} Peaversioonid võivad sisaldada olulisi muudatusi. Nende paketite uuendamiseks eemaldage iga pakett ja installige see uuesti.",
+    "packageUpdateVersionConstraint": "Selle paketi uus peaversioon on saadaval. Peaversioonid võivad sisaldada olulisi muudatusi ja seetõttu ei installita neid automaatselt. Uuendamiseks eemaldage pakett ja installige see uuesti.",
     "packageUpdatedAllSuccess": "Edukalt uuendatud kõik paketid",
     "packageUpdatedSuccess": "Edukalt uuendatud",
     "packageUpdating": "Paketi uuendamine ...",

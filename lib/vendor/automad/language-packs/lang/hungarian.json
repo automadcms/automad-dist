@@ -381,6 +381,8 @@
     "packageRemove": "A  eltávolítása",
     "packageRemoving": "A csomag eltávolítása ...",
     "packageUpdate": "Frissítés",
+    "packageUpdateAllVersionConstraint": "Egyes csomagok nem frissültek automatikusan, mert új főverziók állnak rendelkezésre: {} A főverziók kompatibilitást megszakító változásokat tartalmazhatnak. Ezen csomagok frissítéséhez távolítsa el mindegyiket, majd telepítse újra őket.",
+    "packageUpdateVersionConstraint": "A csomag új főverziója elérhető. A főverziók jelentős változásokat tartalmazhatnak, ezért nem települnek automatikusan. A frissítéshez távolítsa el a csomagot, majd telepítse újra.",
     "packageUpdatedAllSuccess": "Sikeresen frissítette az összes csomagot",
     "packageUpdatedSuccess": "Sikeresen frissítve",
     "packageUpdating": "A csomag frissítése ...",

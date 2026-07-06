@@ -381,6 +381,8 @@
     "packageRemove": "Usuń",
     "packageRemoving": "Usuwanie pakietów ...",
     "packageUpdate": "Aktualizacja",
+    "packageUpdateAllVersionConstraint": "Niektóre pakiety nie zostały zaktualizowane automatycznie, bo dostępne są nowe główne wersje: {} Główne wydania mogą zawierać zmiany powodujące niekompatybilność. Żeby zaktualizować te pakiety, usuń każdy z nich i zainstaluj go ponownie.",
+    "packageUpdateVersionConstraint": "Dostępna jest nowa główna wersja tego pakietu. Główne wydania mogą zawierać zmiany powodujące niekompatybilność, dlatego nie są instalowane automatycznie. Żeby zaktualizować, usuń pakiet i zainstaluj go ponownie.",
     "packageUpdatedAllSuccess": "Pomyślnie zaktualizowano wszystkie pakiety",
     "packageUpdatedSuccess": "Aktualizacja zakończona sukcesem",
     "packageUpdating": "Aktualizacja pakietu ...",

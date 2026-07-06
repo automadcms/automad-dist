@@ -381,6 +381,8 @@
     "packageRemove": "Noņemt",
     "packageRemoving": "Paketes noņemšana ...",
     "packageUpdate": "Atjaunināt",
+    "packageUpdateAllVersionConstraint": "Daži pakotnes netika automātiski atjauninātas, jo ir pieejamas jaunas galvenās versijas: {} Galvenajās versijās var būt būtiskas izmaiņas. Lai atjauninātu šīs pakotnes, katru no tām ir jāizdzēš un jāinstalē no jauna.",
+    "packageUpdateVersionConstraint": "Ir pieejama šī pakotnes jauna galvenā versija. Galvenās versijas var ietvert būtiskas izmaiņas, tāpēc tās netiek instalētas automātiski. Lai veiktu atjaunināšanu, noņemiet pakotni un instalējiet to no jauna.",
     "packageUpdatedAllSuccess": "Veiksmīgi atjauninātas visas paketes",
     "packageUpdatedSuccess": "Veiksmīgi atjaunināts",
     "packageUpdating": "Paketes atjaunināšana ...",

@@ -381,6 +381,8 @@
     "packageRemove": "Eliminați",
     "packageRemoving": "Îndepărtarea pachetului ...",
     "packageUpdate": "Actualizare",
+    "packageUpdateAllVersionConstraint": "Unele pachete nu au fost actualizate automat deoarece sunt disponibile versiuni majore noi: {} Versiunile majore pot include modificări care afectează compatibilitatea. Pentru a actualiza aceste pachete, dezinstalați-le pe fiecare în parte și reinstalați-le.",
+    "packageUpdateVersionConstraint": "Este disponibilă o nouă versiune majoră a acestui pachet. Versiunile majore pot include modificări care afectează compatibilitatea și, prin urmare, nu sunt instalate automat. Pentru a efectua actualizarea, dezinstalați pachetul și instalați-l din nou.",
     "packageUpdatedAllSuccess": "Ați actualizat cu succes toate pachetele",
     "packageUpdatedSuccess": "Actualizat cu succes",
     "packageUpdating": "Actualizarea pachetului ...",

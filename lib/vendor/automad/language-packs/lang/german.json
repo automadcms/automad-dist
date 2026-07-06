@@ -381,6 +381,8 @@
     "packageRemove": "Entfernen",
     "packageRemoving": "Erweiterungen entfernen ...",
     "packageUpdate": "Aktualisieren",
+    "packageUpdateAllVersionConstraint": "Einige Pakete wurden nicht automatisch aktualisiert, da neue Hauptversionen verfügbar sind: {} Hauptversionen können kompatibilitätsbrechende Änderungen enthalten. Um diese Pakete zu aktualisieren, entferne jedes einzelne und installiere es erneut.",
+    "packageUpdateVersionConstraint": "Eine neue Hauptversion dieses Pakets ist verfügbar. Hauptversionen können kompatibilitätsbrechende Änderungen enthalten und werden daher nicht automatisch installiert. Um ein Upgrade durchzuführen, entferne das Paket und installiere es erneut.",
     "packageUpdatedAllSuccess": "Erfolgreich alle Erweiterungen aktualisiert",
     "packageUpdatedSuccess": "Erfolgreich aktualisiert",
     "packageUpdating": "Erweiterungen aktualisieren ...",

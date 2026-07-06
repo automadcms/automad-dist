@@ -381,6 +381,8 @@
     "packageRemove": "Odstrani",
     "packageRemoving": "Odstranitev paketa ...",
     "packageUpdate": "Posodobitev",
+    "packageUpdateAllVersionConstraint": "Nekateri paketi se niso samodejno posodobili, ker so na voljo nove glavne različice: {} Glavne različice lahko vključujejo pomembne spremembe. Za nadgradnjo teh paketov vsakega posameznega odstranite in ga ponovno namestite.",
+    "packageUpdateVersionConstraint": "Na voljo je nova glavna različica tega paketa. Glavne različice lahko vključujejo pomembne spremembe in se zato ne namestijo samodejno. Za nadgradnjo odstranite paket in ga ponovno namestite.",
     "packageUpdatedAllSuccess": "Uspešno posodobljeni vsi paketi",
     "packageUpdatedSuccess": "Uspešno posodobljeno",
     "packageUpdating": "Posodabljanje paketa ...",

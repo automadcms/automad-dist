@@ -381,6 +381,8 @@
     "packageRemove": "削除する",
     "packageRemoving": "パッケージの削除 ...",
     "packageUpdate": "更新",
+    "packageUpdateAllVersionConstraint": "一部のパッケージは、新しいメジャーバージョンが利用可能であるにもかかわらず、自動的に更新されなかった：{} メジャーリリースには互換性を損なう変更が含まれる場合がある。これらのパッケージをアップグレードするには、各パッケージを削除してから再インストールする必要がある。",
+    "packageUpdateVersionConstraint": "このパッケージの新しいメジャーバージョンが利用可能だ。メジャーリリースには互換性を損なう変更が含まれる可能性があるため、自動的にインストールされない。アップグレードするには、パッケージを削除してから再インストールする必要がある。",
     "packageUpdatedAllSuccess": "全パッケージのアップデートに成功",
     "packageUpdatedSuccess": "アップデートに成功",
     "packageUpdating": "パッケージの更新 ...",

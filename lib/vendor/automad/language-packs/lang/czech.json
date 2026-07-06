@@ -381,6 +381,8 @@
     "packageRemove": "Odstranění stránky",
     "packageRemoving": "Odstranění balíčku ...",
     "packageUpdate": "Aktualizace",
+    "packageUpdateAllVersionConstraint": "Některé balíčky nebyly automaticky aktualizovány, protože jsou k dispozici nové hlavní verze: {} Hlavní verze mohou obsahovat zásadní změny. Chcete-li tyto balíčky aktualizovat, odstraňte každý z nich a nainstalujte jej znovu.",
+    "packageUpdateVersionConstraint": "Je k dispozici nová hlavní verze tohoto balíčku. Hlavní verze mohou obsahovat zásadní změny a proto se neinstalují automaticky. Chcete-li provést aktualizaci, odstraňte balíček a nainstalujte jej znovu.",
     "packageUpdatedAllSuccess": "Úspěšná aktualizace všech balíčků",
     "packageUpdatedSuccess": "Úspěšně aktualizováno",
     "packageUpdating": "Aktualizace balíčku ...",

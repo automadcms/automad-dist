@@ -381,6 +381,8 @@
     "packageRemove": "Poista",
     "packageRemoving": "Paketin poistaminen ...",
     "packageUpdate": "Päivitä",
+    "packageUpdateAllVersionConstraint": "Joitakin paketteja ei päivitetty automaattisesti, koska uusia pääversioita on saatavilla: {} Pääversiot saattavat sisältää yhteensopivuutta rikkovia muutoksia. Päivitä nämä paketit poistamalla kukin niistä ja asentamalla se uudelleen.",
+    "packageUpdateVersionConstraint": "Tästä paketista on saatavilla uusi pääversio. Pääversiot saattavat sisältää yhteensopivuutta rikkovia muutoksia, minkä vuoksi niitä ei asenneta automaattisesti. Päivitä poistamalla paketti ja asentamalla se uudelleen.",
     "packageUpdatedAllSuccess": "Kaikki paketit on päivitetty onnistuneesti",
     "packageUpdatedSuccess": "Onnistunut päivitys",
     "packageUpdating": "Paketin päivittäminen ...",

@@ -381,6 +381,8 @@
     "packageRemove": "Fjern",
     "packageRemoving": "Fjernelse af pakke ...",
     "packageUpdate": "Opdatering",
+    "packageUpdateAllVersionConstraint": "Nogle pakker blev ikke opdateret automatisk, fordi der er nye hovedversioner tilgængelige: {} Hovedversioner kan indeholde ændringer, der bryder kompatibiliteten. For at opgradere disse pakker skal du fjerne hver enkelt og installere den igen.",
+    "packageUpdateVersionConstraint": "Der er en ny hovedversion af denne pakke tilgængelig. Hovedudgivelser kan indeholde ændringer, der bryder kompatibiliteten, og installeres derfor ikke automatisk. For at opgradere skal du fjerne pakken og installere den igen.",
     "packageUpdatedAllSuccess": "Alle pakker er opdateret med succes",
     "packageUpdatedSuccess": "Opdateret med succes",
     "packageUpdating": "Opdatering af pakke ...",

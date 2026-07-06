@@ -59,7 +59,7 @@ https://marcdahmen.de
 		<@ if @{ :level } > 1 and @{ :max } > 1 @>
 			<ul class="std-sidebar__breadcrumbs">
 				<@ foreach in pagelist @>
-					<@ if @{ :i } < @{ :max } @>
+					<@ if @{ :i } <= @{ :max } @>
 						<li class="std-sidebar__node">
 							<a href="@{ url }" class="std-sidebar__item std-sidebar__item--directory">
 								<@ icon { name: 'arrow-left' } @>
