@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Tényleg el akarja távolítani a tárolót és a kapcsolódó csomagokat?",
     "repositoryRemovedSuccess": "Az adattár sikeresen eltávolításra került",
     "repositoryUpdate": "Frissítés",
+    "repositoryUpdateCommitError": "Hiba a Git-commit részleteinek frissítésekor",
     "repositoryUpdateSuccess": "A tároló sikeresen frissült",
     "repositoryUpdating": "Az adattárcsomag frissítése",
     "requiredField": "Szükséges",
@@ -645,6 +646,7 @@
     "textTool": "Szöveg",
     "themeReadme": "Az aktuális téma readme fájljának megnyitása",
     "toBeUploaded": "Feltöltendő",
+    "today": "Ma",
     "toggleRatioLockTitle": "Képarányzár bekapcsolása",
     "trashClear": "Tiszta",
     "trashClearConfirm": "Tényleg ki akarja üríteni a szemétkönyvtárat?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Már majdnem készen van. Kérjük, ellenőrizze a következő beállításokat, és győződjön meg arról, hogy azok megfelelnek az Ön igényeinek, és a kívánt módon vannak konfigurálva.",
     "wizardTitle": "Fejezze be a konfigurálást",
     "write": "Írja meg a",
+    "yesterday": "Tegnap",
     "zoomInTitle": "Nagyítás",
     "zoomOutTitle": "Kicsinyítés"
 }

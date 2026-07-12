@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Ви дійсно хочете видалити сховище і видалити пов'язані з ним пакунки?",
     "repositoryRemovedSuccess": "Репозиторій успішно видалено",
     "repositoryUpdate": "Оновлення",
+    "repositoryUpdateCommitError": "Помилка під час оновлення деталей коміту Git",
     "repositoryUpdateSuccess": "Репозиторій успішно оновлено",
     "repositoryUpdating": "Оновлення пакету репозиторію",
     "requiredField": "Необхідно",
@@ -645,6 +646,7 @@
     "textTool": "Текст",
     "themeReadme": "Відкрийте файл readme поточної теми",
     "toBeUploaded": "для завантаження",
+    "today": "Сьогодні",
     "toggleRatioLockTitle": "Блокування перемикання співвідношення сторін",
     "trashClear": "Очистити",
     "trashClearConfirm": "Ви дійсно хочете очистити кошик?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Ви майже готові. Перегляньте наступні налаштування та переконайтеся, що вони відповідають вашим вимогам і налаштовані так, як потрібно.",
     "wizardTitle": "Завершіть налаштування",
     "write": "Писати",
+    "yesterday": "Вчора",
     "zoomInTitle": "Збільшити масштаб",
     "zoomOutTitle": "Зменшити масштаб"
 }

@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Czy naprawdę chcesz usunąć repozytorium i odinstalować powiązane pakiety?",
     "repositoryRemovedSuccess": "Repozytorium zostało pomyślnie usunięte",
     "repositoryUpdate": "Aktualizacja",
+    "repositoryUpdateCommitError": "Błąd podczas aktualizacji szczegółów commitów w Git",
     "repositoryUpdateSuccess": "Repozytorium zostało pomyślnie zaktualizowane",
     "repositoryUpdating": "Aktualizacja pakietu repozytorium",
     "requiredField": "Wymagane",
@@ -645,6 +646,7 @@
     "textTool": "Tekst",
     "themeReadme": "Otwórz plik readme bieżącego motywu",
     "toBeUploaded": "Do wgrania",
+    "today": "Dzisiaj",
     "toggleRatioLockTitle": "Przełącz blokadę proporcji",
     "trashClear": "Przejrzystość",
     "trashClearConfirm": "Czy naprawdę chcesz wyczyścić katalog śmieci?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Jesteś już prawie gotowy. Sprawdź poniższe ustawienia i upewnij się, że odpowiadają one Twoim wymaganiom i są skonfigurowane zgodnie z zamierzeniami.",
     "wizardTitle": "Zakończ konfigurację",
     "write": "Napisz",
+    "yesterday": "Wczoraj",
     "zoomInTitle": "Powiększ",
     "zoomOutTitle": "Powiększ"
 }

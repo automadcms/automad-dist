@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Kas te tõesti soovite eemaldada repositooriumi ja eemaldada seotud paketid?",
     "repositoryRemovedSuccess": "Varamu on edukalt eemaldatud",
     "repositoryUpdate": "Värskendage",
+    "repositoryUpdateCommitError": "Viga Git-commit'i andmete uuendamisel",
     "repositoryUpdateSuccess": "Varamu uuendati edukalt",
     "repositoryUpdating": "Repositooriumi paketi uuendamine",
     "requiredField": "Vajalik",
@@ -645,6 +646,7 @@
     "textTool": "Tekst",
     "themeReadme": "Avage praeguse teema readme fail",
     "toBeUploaded": "üleslaadimiseks",
+    "today": "Täna",
     "toggleRatioLockTitle": "Vahetage kuvasuhte lukustust",
     "trashClear": "Selge",
     "trashClearConfirm": "Kas te tõesti soovite prügikasti tühjendada?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Olete peaaegu valmis. Palun vaadake järgmisi seadeid üle ja veenduge, et need vastavad teie nõuetele ja on konfigureeritud soovitud viisil.",
     "wizardTitle": "Viige konfiguratsioon lõpule",
     "write": "Kirjutage",
+    "yesterday": "Eile",
     "zoomInTitle": "Suurendus",
     "zoomOutTitle": "Suumimine"
 }

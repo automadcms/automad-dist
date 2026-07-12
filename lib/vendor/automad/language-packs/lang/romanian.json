@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Chiar doriți să eliminați depozitul și să dezinstalați pachetele aferente?",
     "repositoryRemovedSuccess": "Depozitul a fost eliminat cu succes",
     "repositoryUpdate": "Actualizare",
+    "repositoryUpdateCommitError": "Eroare la actualizarea detaliilor commit-ului Git",
     "repositoryUpdateSuccess": "Depozitul a fost actualizat cu succes",
     "repositoryUpdating": "Actualizarea pachetului repository",
     "requiredField": "Necesar",
@@ -645,6 +646,7 @@
     "textTool": "Text",
     "themeReadme": "Deschideți fișierul readme al temei curente",
     "toBeUploaded": "Pentru a fi încărcat",
+    "today": "Astăzi",
     "toggleRatioLockTitle": "Comutarea blocării raportului de aspect",
     "trashClear": "Clear",
     "trashClearConfirm": "Chiar doriți să goliți directorul de gunoi?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Sunteți aproape gata. Vă rugăm să verificați următoarele setări și să vă asigurați că acestea corespund cerințelor dvs. și sunt configurate conform intenției.",
     "wizardTitle": "Finalizați configurarea",
     "write": "Scrieți la",
+    "yesterday": "Ieri",
     "zoomInTitle": "Zoom in",
     "zoomOutTitle": "Zoom out"
 }

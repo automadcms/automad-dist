@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "本当にリポジトリを削除し、関連パッケージをアンインストールしたいのか？",
     "repositoryRemovedSuccess": "リポジトリは正常に削除された",
     "repositoryUpdate": "更新",
+    "repositoryUpdateCommitError": "Gitコミットの詳細の更新に失敗した",
     "repositoryUpdateSuccess": "リポジトリは正常に更新された",
     "repositoryUpdating": "リポジトリパッケージを更新する",
     "requiredField": "必須",
@@ -645,6 +646,7 @@
     "textTool": "テキスト",
     "themeReadme": "現在のテーマのreadme ファイルを開く",
     "toBeUploaded": "アップロードする",
+    "today": "今日",
     "toggleRatioLockTitle": "アスペクト比ロックの切り替え",
     "trashClear": "クリア",
     "trashClearConfirm": "本当にゴミ箱を空にしたいのか？",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "準備はほぼ完了した。以下の設定を確認し、要件に合致し、意図した通りに設定されているか確認してほしい。",
     "wizardTitle": "設定を完了する",
     "write": "書く",
+    "yesterday": "昨日",
     "zoomInTitle": "ズームイン",
     "zoomOutTitle": "ズームアウト"
 }

@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Vill du verkligen ta bort repository och avinstallera de relaterade paketen?",
     "repositoryRemovedSuccess": "Förvaret togs bort framgångsrikt",
     "repositoryUpdate": "Uppdatering",
+    "repositoryUpdateCommitError": "Fel vid uppdatering av Git-commit-detaljer",
     "repositoryUpdateSuccess": "Repository uppdaterades framgångsrikt",
     "repositoryUpdating": "Uppdatering av repository-paket",
     "requiredField": "Krävs",
@@ -645,6 +646,7 @@
     "textTool": "Text",
     "themeReadme": "Öppna readme -filen för aktuellt tema",
     "toBeUploaded": "Att ladda upp",
+    "today": "Idag",
     "toggleRatioLockTitle": "Växla lås för bildförhållande",
     "trashClear": "Klart",
     "trashClearConfirm": "Vill du verkligen rensa papperskorgen?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Du är nästan klar. Granska följande inställningar och bekräfta att de stämmer överens med dina krav och är konfigurerade som avsett.",
     "wizardTitle": "Slutför din konfiguration",
     "write": "Skriva",
+    "yesterday": "Igår",
     "zoomInTitle": "Zooma in",
     "zoomOutTitle": "Zooma ut"
 }

@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Ali res želite odstraniti shrambo in odstraniti povezane pakete?",
     "repositoryRemovedSuccess": "Skladišče je bilo uspešno odstranjeno",
     "repositoryUpdate": "Posodobitev",
+    "repositoryUpdateCommitError": "Napaka pri posodabljanju podrobnosti Git-ovega posodobitvenega zapisa",
     "repositoryUpdateSuccess": "Skladišče je bilo uspešno posodobljeno",
     "repositoryUpdating": "Posodabljanje paketa repozitorija",
     "requiredField": "Zahtevane spletne strani",
@@ -645,6 +646,7 @@
     "textTool": "Besedilo",
     "themeReadme": "Odprite datoteko readme trenutne teme",
     "toBeUploaded": "Ki jih je treba naložiti",
+    "today": "Danes",
     "toggleRatioLockTitle": "Preklopite zaklepanje razmerja stranic",
     "trashClear": "Jasno",
     "trashClearConfirm": "Ali res želite počistiti imenik za smeti?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Skoraj ste pripravljeni. Preverite naslednje nastavitve in potrdite, da ustrezajo vašim zahtevam in so konfigurirane, kot je bilo predvideno.",
     "wizardTitle": "Dokončajte konfiguracijo",
     "write": "Napišite",
+    "yesterday": "Včeraj",
     "zoomInTitle": "Povečanje",
     "zoomOutTitle": "Pomanjšanje"
 }

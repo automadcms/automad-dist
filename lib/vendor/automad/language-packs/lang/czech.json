@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Opravdu chcete odebrat úložiště a odinstalovat související balíčky?",
     "repositoryRemovedSuccess": "Úložiště bylo úspěšně odstraněno",
     "repositoryUpdate": "Aktualizace",
+    "repositoryUpdateCommitError": "Chyba při aktualizaci podrobností o revizi v Git",
     "repositoryUpdateSuccess": "Úložiště bylo úspěšně aktualizováno",
     "repositoryUpdating": "Aktualizace balíčku úložiště",
     "requiredField": "Požadované stránky",
@@ -645,6 +646,7 @@
     "textTool": "Text",
     "themeReadme": "Otevření souboru readme aktuálního motivu",
     "toBeUploaded": "K nahrání",
+    "today": "Dnes",
     "toggleRatioLockTitle": "Přepínání zámku poměru stran",
     "trashClear": "Přehledné stránky",
     "trashClearConfirm": "Opravdu chcete vyčistit adresář s košem?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Jste téměř připraveni. Zkontrolujte prosím následující nastavení a ujistěte se, že odpovídají vašim požadavkům a jsou nakonfigurována podle vašich představ.",
     "wizardTitle": "Dokončete konfiguraci",
     "write": "Napište",
+    "yesterday": "Včera",
     "zoomInTitle": "Zvětšení",
     "zoomOutTitle": "Zvětšení"
 }

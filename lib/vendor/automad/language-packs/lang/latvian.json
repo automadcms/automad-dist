@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Vai tiešām vēlaties noņemt krātuvi un atinstalēt saistītās paketes?",
     "repositoryRemovedSuccess": "Repozitorijs tika veiksmīgi noņemts",
     "repositoryUpdate": "Atjaunināt",
+    "repositoryUpdateCommitError": "Kļūda, atjauninot Git komita informāciju",
     "repositoryUpdateSuccess": "Repozitorijs tika veiksmīgi atjaunināts",
     "repositoryUpdating": "Repozitorija paketes atjaunināšana",
     "requiredField": "Nepieciešams",
@@ -645,6 +646,7 @@
     "textTool": "Teksts",
     "themeReadme": "Atveriet pašreizējās tēmas readme failu",
     "toBeUploaded": "Augšupielādēt",
+    "today": "Šodien",
     "toggleRatioLockTitle": "Pārslēgt proporciju bloķēšanu",
     "trashClear": "Skaidrs",
     "trashClearConfirm": "Vai tiešām vēlaties iztīrīt atkritumu direktoriju?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Jūs esat gandrīz gatavs. Lūdzu, pārskatiet šādus iestatījumus un pārliecinieties, ka tie atbilst jūsu prasībām un ir konfigurēti atbilstoši iecerētajam.",
     "wizardTitle": "Pabeidziet konfigurāciju",
     "write": "Rakstiet",
+    "yesterday": "Vakar",
     "zoomInTitle": "Palielināt",
     "zoomOutTitle": "Palielināt"
 }

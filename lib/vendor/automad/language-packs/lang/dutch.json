@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Wil je echt de repository verwijderen en de gerelateerde pakketten verwijderen?",
     "repositoryRemovedSuccess": "De repository is succesvol verwijderd",
     "repositoryUpdate": "Update",
+    "repositoryUpdateCommitError": "Fout bij het bijwerken van Git-commitgegevens",
     "repositoryUpdateSuccess": "De repository is succesvol bijgewerkt",
     "repositoryUpdating": "Repository pakket bijwerken",
     "requiredField": "Vereist",
@@ -645,6 +646,7 @@
     "textTool": "Tekst",
     "themeReadme": "Open readme bestand van huidig thema",
     "toBeUploaded": "Uploaden",
+    "today": "Vandaag",
     "toggleRatioLockTitle": "Schermverhouding vergrendelen",
     "trashClear": "Overzichtelijk",
     "trashClearConfirm": "Wil je echt de prullenbak leegmaken?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Je bent bijna klaar. Controleer de volgende instellingen en kijk of ze aan je eisen voldoen en zoals je wilt zijn ingesteld.",
     "wizardTitle": "Voltooi je configuratie",
     "write": "Schrijf",
+    "yesterday": "Gisteren",
     "zoomInTitle": "Inzoomen",
     "zoomOutTitle": "Uitzoomen"
 }

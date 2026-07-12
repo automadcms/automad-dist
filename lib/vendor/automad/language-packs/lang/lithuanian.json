@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Ar tikrai norite pašalinti saugyklą ir pašalinti susijusius paketus?",
     "repositoryRemovedSuccess": "Saugykla buvo sėkmingai pašalinta",
     "repositoryUpdate": "Atnaujinti",
+    "repositoryUpdateCommitError": "Klaida atnaujinant „Git“ įrašų duomenis",
     "repositoryUpdateSuccess": "Saugykla buvo sėkmingai atnaujinta",
     "repositoryUpdating": "Saugyklos paketo atnaujinimas",
     "requiredField": "Reikalinga",
@@ -645,6 +646,7 @@
     "textTool": "Tekstas",
     "themeReadme": "Atidarykite dabartinės temos readme failą",
     "toBeUploaded": "įkelti",
+    "today": "Šiandien",
     "toggleRatioLockTitle": "Perjungti kraštinių santykio užraktą",
     "trashClear": "Aiškus",
     "trashClearConfirm": "Ar tikrai norite išvalyti šiukšlių katalogą?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Jūs beveik pasirengę. Prašome peržiūrėti šiuos nustatymus ir patvirtinti, kad jie atitinka jūsų reikalavimus ir yra sukonfigūruoti taip, kaip numatyta.",
     "wizardTitle": "Užbaigti konfigūraciją",
     "write": "Rašykite",
+    "yesterday": "Vakar",
     "zoomInTitle": "Padidinti",
     "zoomOutTitle": "Padidinti"
 }

@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Veux-tu vraiment supprimer le référentiel et désinstaller les paquets associés ?",
     "repositoryRemovedSuccess": "Le dépôt a été supprimé avec succès",
     "repositoryUpdate": "Mise à jour",
+    "repositoryUpdateCommitError": "Erreur lors de la mise à jour des détails du commit Git",
     "repositoryUpdateSuccess": "Le référentiel a été mis à jour avec succès",
     "repositoryUpdating": "Mise à jour du paquet du référentiel",
     "requiredField": "Exigences",
@@ -645,6 +646,7 @@
     "textTool": "Texte",
     "themeReadme": "Ouvrir le fichier readme du thème actuel",
     "toBeUploaded": "à télécharger",
+    "today": "Aujourd’hui",
     "toggleRatioLockTitle": "Verrouillage du rapport hauteur/largeur",
     "trashClear": "Clair",
     "trashClearConfirm": "Veux-tu vraiment vider le répertoire de la corbeille?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Tu es presque prêt. Vérifie les paramètres suivants et assure-toi qu'ils correspondent à tes besoins et qu'ils sont configurés comme prévu.",
     "wizardTitle": "Termine ta configuration",
     "write": "Écrire",
+    "yesterday": "Hier",
     "zoomInTitle": "Zoom avant",
     "zoomOutTitle": "Zoom arrière"
 }

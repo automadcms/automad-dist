@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "¿Realmente quieres eliminar el repositorio y desinstalar los paquetes relacionados?",
     "repositoryRemovedSuccess": "El repositorio se ha eliminado correctamente",
     "repositoryUpdate": "Actualiza",
+    "repositoryUpdateCommitError": "Error al actualizar los detalles de la confirmación de Git",
     "repositoryUpdateSuccess": "El repositorio se ha actualizado correctamente",
     "repositoryUpdating": "Actualizar el paquete del repositorio",
     "requiredField": "Requerido",
@@ -645,6 +646,7 @@
     "textTool": "Texto",
     "themeReadme": "Abre el archivo readme del tema actual",
     "toBeUploaded": "Cargar",
+    "today": "Hoy",
     "toggleRatioLockTitle": "Alternar el bloqueo de la relación de aspecto",
     "trashClear": "Aclarar",
     "trashClearConfirm": "¿De verdad quieres vaciar el directorio de basura?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Ya casi estás listo. Revisa los siguientes ajustes y confirma que se ajustan a tus necesidades y que están configurados como esperabas.",
     "wizardTitle": "Completa tu configuración",
     "write": "Escribe a",
+    "yesterday": "Ayer",
     "zoomInTitle": "Ampliar",
     "zoomOutTitle": "Alejar"
 }

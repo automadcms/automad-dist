@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Vil du virkelig fjerne depotet og avinstallere de relaterte pakkene?",
     "repositoryRemovedSuccess": "Repositoryet ble fjernet med suksess",
     "repositoryUpdate": "Oppdatering",
+    "repositoryUpdateCommitError": "Feil ved oppdatering av Git-commit-detaljer",
     "repositoryUpdateSuccess": "Repositoryet ble oppdatert med suksess",
     "repositoryUpdating": "Oppdatering av repository-pakken",
     "requiredField": "Påkrevd",
@@ -645,6 +646,7 @@
     "textTool": "Tekst",
     "themeReadme": "Åpne readme filen for det aktuelle temaet",
     "toBeUploaded": "Lastes opp",
+    "today": "I dag",
     "toggleRatioLockTitle": "Slå av og på låsing av størrelsesforhold",
     "trashClear": "Tydelig",
     "trashClearConfirm": "Vil du virkelig tømme søppelkatalogen?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Du er nesten klar. Gå gjennom følgende innstillinger og bekreft at de samsvarer med dine krav og er konfigurert som ønsket.",
     "wizardTitle": "Fullfør konfigurasjonen",
     "write": "Skrive",
+    "yesterday": "I går",
     "zoomInTitle": "Zoom inn",
     "zoomOutTitle": "Zoom ut"
 }

@@ -463,6 +463,7 @@
     "repositoryRemoveConfirm": "Haluatko todella poistaa arkiston ja poistaa siihen liittyvät paketit?",
     "repositoryRemovedSuccess": "Arkisto poistettiin onnistuneesti",
     "repositoryUpdate": "Päivitä",
+    "repositoryUpdateCommitError": "Virhe Git-commitin tietojen päivittämisessä",
     "repositoryUpdateSuccess": "Arkisto päivitettiin onnistuneesti",
     "repositoryUpdating": "Arkistopaketin päivittäminen",
     "requiredField": "Vaadittu",
@@ -645,6 +646,7 @@
     "textTool": "Teksti",
     "themeReadme": "Avaa nykyisen teeman readme tiedosto",
     "toBeUploaded": "Ladattava",
+    "today": "Tänään",
     "toggleRatioLockTitle": "Kuvasuhteen lukituksen vaihtaminen",
     "trashClear": "Selkeä",
     "trashClearConfirm": "Haluatko todella tyhjentää roskakorihakemiston?",
@@ -699,6 +701,7 @@
     "wizardSubtitle": "Olet melkein valmis. Tarkista seuraavat asetukset ja varmista, että ne vastaavat vaatimuksiasi ja ovat määritetty oikein.",
     "wizardTitle": "Viimeistele asetukset",
     "write": "Kirjoita",
+    "yesterday": "Eilen",
     "zoomInTitle": "Suurenna",
     "zoomOutTitle": "Pienennä"
 }
