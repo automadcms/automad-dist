@@ -365,6 +365,7 @@
     "openComponentEditor": "Otvori uređivač komponenti",
     "openGraphImage": "Open-Graph Slika (ostavite prazno kako biste koristili automatski generiranu sliku)",
     "openGraphImageShared": "Open-Graph Slika (nadjačava automatski generirane slike u formatu Open-Graph na cijeloj stranici)",
+    "openGraphTitle": "Prilagođeni naslov koji se prikazuje na generiranoj slici \" Open-Graph \"",
     "openInNewTab": "Otvori u novoj kartici",
     "optimizeContentForCards": "Optimizirajte sadržaj za kartice",
     "orderedList": "Redani popis",

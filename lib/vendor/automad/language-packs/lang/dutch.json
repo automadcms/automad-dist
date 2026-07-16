@@ -365,6 +365,7 @@
     "openComponentEditor": "Componenteneditor openen",
     "openGraphImage": "Open-Graph Afbeelding (leeg laten om de automatisch gegenereerde afbeelding te gebruiken)",
     "openGraphImageShared": "Open-Graph Afbeelding (overschrijft automatisch gegenereerde Open-Graph afbeeldingen over de hele site)",
+    "openGraphTitle": "Aangepaste titel die wordt weergegeven op de gegenereerde afbeelding Open-Graph ",
     "openInNewTab": "Open in een nieuw tabblad",
     "optimizeContentForCards": "Inhoud optimaliseren voor kaarten",
     "orderedList": "Geordende lijst",

@@ -365,6 +365,7 @@
     "openComponentEditor": "コンポーネント・エディターを開く",
     "openGraphImage": "Open-Graph 画像（自動生成された画像を使用する場合は空白のままにする）",
     "openGraphImageShared": "Open-Graph 画像（自動的に生成される サイト全体の画像を上書きする）Open-Graph ",
+    "openGraphTitle": "生成されたOpen-Graph 画像に表示されるカスタムタイトル",
     "openInNewTab": "新しいタブで開く",
     "optimizeContentForCards": "コンテンツをカード用に最適化する",
     "orderedList": "注文リスト",

@@ -365,6 +365,7 @@
     "openComponentEditor": "Aprire l'editor dei componenti",
     "openGraphImage": "Open-Graph Immagine (lasciare vuoto per utilizzare l'immagine generata automaticamente)",
     "openGraphImageShared": "Open-Graph Immagine (sovrascrive le immagini generate automaticamente da Open-Graph in tutto il sito)",
+    "openGraphTitle": "Titolo personalizzato che viene visualizzato sull’immagine generata su Open-Graph ",
     "openInNewTab": "Apri in una nuova scheda",
     "optimizeContentForCards": "Ottimizzare i contenuti per le schede",
     "orderedList": "Elenco ordinato",

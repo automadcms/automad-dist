@@ -365,6 +365,7 @@
     "openComponentEditor": "Åpne komponentredigering",
     "openGraphImage": "Open-Graph Bilde (la det stå tomt for å bruke det automatisk genererte bildet)",
     "openGraphImageShared": "Open-Graph Bilde (overstyrer automatisk genererte Open-Graph -bilder på hele nettstedet)",
+    "openGraphTitle": "Egendefinert tittel som vises på det genererte bildet på Open-Graph ",
     "openInNewTab": "Åpne i en ny fane",
     "optimizeContentForCards": "Optimalisere innhold for kort",
     "orderedList": "Ordnet liste",

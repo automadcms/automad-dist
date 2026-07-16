@@ -365,6 +365,7 @@
     "openComponentEditor": "Deschideți editorul de componente",
     "openGraphImage": "Open-Graph Imagine (lăsați gol pentru a utiliza imaginea generată automat)",
     "openGraphImageShared": "Open-Graph Imagine (suprascrie imaginile generate automat Open-Graph la nivelul întregului site)",
+    "openGraphTitle": "Titlu personalizat afișat pe imaginea generată de Open-Graph ",
     "openInNewTab": "Deschideți într-o filă nouă",
     "optimizeContentForCards": "Optimizarea conținutului pentru carduri",
     "orderedList": "Listă ordonată",

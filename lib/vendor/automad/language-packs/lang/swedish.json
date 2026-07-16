@@ -365,6 +365,7 @@
     "openComponentEditor": "Öppna komponentredigeraren",
     "openGraphImage": "Open-Graph Bild (lämna tom för att använda den automatiskt genererade bilden)",
     "openGraphImageShared": "Open-Graph Bild (åsidosätter automatiskt genererade Open-Graph bilder på hela webbplatsen)",
+    "openGraphTitle": "Anpassad titel som visas på den genererade bilden Open-Graph ",
     "openInNewTab": "Öppna på en ny flik",
     "optimizeContentForCards": "Optimera innehåll för kort",
     "orderedList": "Ordnad lista",

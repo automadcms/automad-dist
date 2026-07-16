@@ -365,6 +365,7 @@
     "openComponentEditor": "Komponensszerkesztő megnyitása",
     "openGraphImage": "Open-Graph Kép (hagyja üresen az automatikusan generált kép használatához)",
     "openGraphImageShared": "Open-Graph Kép (felülbírálja az automatikusan generált Open-Graph képeket az egész oldalon)",
+    "openGraphTitle": "Egyéni cím, amely a létrehozott Open-Graph képen jelenik meg",
     "openInNewTab": "Megnyitás új lapon",
     "optimizeContentForCards": "Tartalom optimalizálása kártyákhoz",
     "orderedList": "Rendezett lista",

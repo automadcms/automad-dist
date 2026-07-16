@@ -18,7 +18,7 @@ https://marcdahmen.de
 			<span class="std-navbar__links-items">
 				<@ foreach in pagelist ~@>
 					<a href="@{ url }" class="std-navbar__link">
-						@{ title }
+						<span>@{ title }</span>
 					</a>
 				<@~ end ~@>
 			</span>

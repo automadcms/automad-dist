@@ -31,30 +31,30 @@ https://marcdahmen.de
 
 		<div class="std-layout__title std-title">
 			<h1>@{ ?tag }</h1>
-		</div>
-		<@ set { 
-			:page: @{ ?page | def (1) },
-			:dateFormat: @{ selectTagPagelistDateFormat | def ('M Y') }
-		} @>
-		<@ newPagelist {
-			filter: @{ ?tag },
-			sort: @{ selectTagPagelistSort | def (':index asc') },
-			limit: @{ numberTagPagelistMaxNumberOfPages | def (12) },
-			page: @{ :page }
-		} @>	
-		<div class="std-layout__main">
-			<div class="std-tags">
-				<@ foreach in filters @>
-					<@ if @{ :filter } != @{ ?tag } @>
-						<a href="?tag=@{ :filter }" class="std-tag">
-							<@ icon { name: 'tag' } @>
-							@{ :filter }
-						</a>
+			<@ set { 
+				:page: @{ ?page | def (1) },
+				:dateFormat: @{ selectTagPagelistDateFormat | def ('M Y') }
+			} @>
+			<@ newPagelist {
+				filter: @{ ?tag },
+				sort: @{ selectTagPagelistSort | def (':index asc') },
+				limit: @{ numberTagPagelistMaxNumberOfPages | def (12) },
+				page: @{ :page }
+			} @>	
+			<div class="std-layout__main">
+				<div class="std-tags">
+					<@ foreach in filters @>
+						<@ if @{ :filter } != @{ ?tag } @>
+							<a href="?tag=@{ :filter }" class="std-tag">
+								<@ icon { name: 'tag' } @>
+								@{ :filter }
+							</a>
+						<@ end @>
 					<@ end @>
-				<@ end @>
+				</div>
+				<@ pagelistLayout { layout: @{ selectTagPagelistLayout | def ('masonry') } } @>
+				<@ pagelist/pagination.php @>
 			</div>
-			<@ pagelistLayout { layout: @{ selectTagPagelistLayout | def ('masonry') } } @>
-			<@ pagelist/pagination.php @>
 		</div>
 	</std-layout-tag-pagelist>
 <@~ end ~@>

@@ -365,6 +365,7 @@
     "openComponentEditor": "Komponenten-Editor öffnen",
     "openGraphImage": "Open-Graph Bild (leer lassen, um das automatisch generierte Bild zu verwenden)",
     "openGraphImageShared": "Open-Graph Bild (überschreibt die automatisch generierten Open-Graph Bilder auf der gesamten Website)",
+    "openGraphTitle": "Benutzerdefinierter Titel, der auf dem generierten Bild unter Open-Graph angezeigt wird",
     "openInNewTab": "In einem neuen Tab öffnen",
     "optimizeContentForCards": "Inhalte für Kartenlayout optimieren",
     "orderedList": "Nummerierte Liste",

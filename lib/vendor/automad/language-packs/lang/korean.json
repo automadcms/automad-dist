@@ -365,6 +365,7 @@
     "openComponentEditor": "컴포넌트 편집기 열기",
     "openGraphImage": "Open-Graph 이미지(자동 생성된 이미지를 사용하려면 비워 두세요)",
     "openGraphImageShared": "Open-Graph 이미지(사이트 전체에서 자동으로 생성된 Open-Graph 이미지 재정의)",
+    "openGraphTitle": "생성된 Open-Graph 이미지에 표시되는 사용자 지정 제목",
     "openInNewTab": "새 탭에서 열기",
     "optimizeContentForCards": "카드용 콘텐츠 최적화",
     "orderedList": "정렬 목록",

@@ -365,6 +365,7 @@
     "openComponentEditor": "打开组件编辑器",
     "openGraphImage": "Open-Graph 图片（留空以使用自动生成的图片）",
     "openGraphImageShared": "Open-Graph 图片（覆盖全站自动生成的 图片）Open-Graph ",
+    "openGraphTitle": "显示在生成的Open-Graph 图片上的自定义标题",
     "openInNewTab": "在新标签页中打开",
     "optimizeContentForCards": "优化卡片内容",
     "orderedList": "有序列表",

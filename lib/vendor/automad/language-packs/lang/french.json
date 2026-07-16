@@ -365,6 +365,7 @@
     "openComponentEditor": "Ouvrir l'éditeur de composants",
     "openGraphImage": "Open-Graph Image (laisser vide pour utiliser l'image générée automatiquement)",
     "openGraphImageShared": "Open-Graph Image (remplace les images Open-Graph générées automatiquement sur tout le site)",
+    "openGraphTitle": "Titre personnalisé qui s'affiche sur l'image générée Open-Graph ",
     "openInNewTab": "Ouvrir dans un nouvel onglet",
     "optimizeContentForCards": "Optimiser le contenu pour les cartes",
     "orderedList": "Liste ordonnée",

@@ -365,6 +365,7 @@
     "openComponentEditor": "Avaa komponenttieditori",
     "openGraphImage": "Open-Graph Kuva (jätä tyhjäksi, jos haluat käyttää automaattisesti luotua kuvaa).",
     "openGraphImageShared": "Open-Graph Kuva (ohittaa automaattisesti luodut Open-Graph -kuvat koko sivustolla).",
+    "openGraphTitle": "Mukautettu otsikko, joka näkyy luodussa Open-Graph -kuvassa",
     "openInNewTab": "Avaa uudessa välilehdessä",
     "optimizeContentForCards": "Optimoi sisältö kortteja varten",
     "orderedList": "Järjestetty luettelo",

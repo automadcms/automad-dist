@@ -8,8 +8,6 @@
     "selectDefaultPagelistDateFormat": "Das Default-Datumsformat für Pagelist-Inhalte",
     "imageLogo": "Logo als Bild (PNG, JPG, etc.)",
     "imagePagelist": "Vorschaubild in Pagelists",
-    "numberLogoWidthDesktop": "Logo-Breite auf Desktop-Bildschirmen",
-    "numberLogoWidthMobile": "Logo-Breite auf kleinen Bildschirmen",
     "selectNavbarLayout": "Navigationsleisten-Layout",
     "selectNavbarSticky": "Navigationsleiste-Verhalten",
     "selectSidebarToggleVisiblity": "Sichtbarkeit von Seitenleisten Toggle in der Navigationsleiste",

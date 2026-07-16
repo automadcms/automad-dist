@@ -365,6 +365,7 @@
     "openComponentEditor": "Atidaryti komponentų redaktorių",
     "openGraphImage": "Open-Graph Paveiksliukas (palikite tuščią vietą, kad būtų naudojamas automatiškai sugeneruotas paveikslėlis)",
     "openGraphImageShared": "Open-Graph Vaizdas (pakeičia automatiškai generuojamus Open-Graph svetainės vaizdus)",
+    "openGraphTitle": "Pasirinktinis pavadinimas, rodomas sukurtame „ Open-Graph “ paveikslėlyje",
     "openInNewTab": "Atidaryti naujame skirtuke",
     "optimizeContentForCards": "Turinio optimizavimas kortelėms",
     "orderedList": "Sutvarkytas sąrašas",

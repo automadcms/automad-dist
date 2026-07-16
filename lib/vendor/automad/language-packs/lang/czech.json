@@ -365,6 +365,7 @@
     "openComponentEditor": "Otevřít editor komponent",
     "openGraphImage": "Open-Graph Obrázek (nechte prázdné, abyste mohli použít automaticky generovaný obrázek)",
     "openGraphImageShared": "Open-Graph Obrázek (přepíše automaticky generované obrázky Open-Graph na celém webu)",
+    "openGraphTitle": "Vlastní název, který se zobrazí na vygenerovaném obrázku Open-Graph ",
     "openInNewTab": "Otevřít na nové kartě",
     "optimizeContentForCards": "Optimalizace obsahu pro karty",
     "orderedList": "Uspořádaný seznam",
