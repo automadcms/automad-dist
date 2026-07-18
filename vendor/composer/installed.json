@@ -52,23 +52,23 @@
         },
         {
             "name": "automad/standard-lite",
-            "version": "0.2.6",
-            "version_normalized": "0.2.6.0",
+            "version": "0.2.7",
+            "version_normalized": "0.2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/automadcms/automad-standard-lite.git",
-                "reference": "648e8f10ef572eaa149edac77a7bc9ca1fb10609"
+                "reference": "bd44fca3fda06d98df786059ef8f50453878743b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/automadcms/automad-standard-lite/zipball/648e8f10ef572eaa149edac77a7bc9ca1fb10609",
-                "reference": "648e8f10ef572eaa149edac77a7bc9ca1fb10609",
+                "url": "https://api.github.com/repos/automadcms/automad-standard-lite/zipball/bd44fca3fda06d98df786059ef8f50453878743b",
+                "reference": "bd44fca3fda06d98df786059ef8f50453878743b",
                 "shasum": ""
             },
             "require": {
                 "automad/package-installer": "^1.1 || dev-master"
             },
-            "time": "2026-07-16T17:35:05+00:00",
+            "time": "2026-07-18T15:40:26+00:00",
             "type": "automad-package",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -91,7 +91,7 @@
             ],
             "support": {
                 "issues": "https://github.com/automadcms/automad-standard-lite/issues",
-                "source": "https://github.com/automadcms/automad-standard-lite/tree/0.2.6"
+                "source": "https://github.com/automadcms/automad-standard-lite/tree/0.2.7"
             },
             "funding": [
                 {
